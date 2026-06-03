@@ -1,0 +1,247 @@
+{
+  "id": "math",
+  "title": "10th Math",
+  "subtitle": "New Book 2026",
+  "kind": "exercises",
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "title": "Chapter 1",
+      "sections": [
+        {
+          "id": "ex1.1",
+          "title": "Exercise 1.1",
+          "videos": [
+            {
+              "order": 1,
+              "playlistIndex": 1,
+              "videoId": "xKi9FZS5WpI",
+              "title": "Q1",
+              "subtitle": "",
+              "duration": "26:19",
+              "url": "https://www.youtube.com/watch?v=xKi9FZS5WpI&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/xKi9FZS5WpI/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.1 Q1-(i-viii)-10th Class Math New Book Exercise 1.1 Q1"
+            },
+            {
+              "order": 2,
+              "playlistIndex": 2,
+              "videoId": "btLeJMMZQv0",
+              "title": "Q2,3",
+              "subtitle": "",
+              "duration": "32:33",
+              "url": "https://www.youtube.com/watch?v=btLeJMMZQv0&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/btLeJMMZQv0/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.1 Question 2,3-10th Class Math New Book E.X 1.1 Q2,Q3- PCTB"
+            }
+          ]
+        },
+        {
+          "id": "ex1.2",
+          "title": "Exercise 1.2",
+          "videos": [
+            {
+              "order": 1,
+              "playlistIndex": 3,
+              "videoId": "mYeDLl3QrrY",
+              "title": "Q1,2",
+              "subtitle": "",
+              "duration": "33:44",
+              "url": "https://www.youtube.com/watch?v=mYeDLl3QrrY&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/mYeDLl3QrrY/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.2 Question 1,2-10th Class Math New Book Exercise 1.2 Q1,Q2"
+            },
+            {
+              "order": 2,
+              "playlistIndex": 4,
+              "videoId": "cK2sJCfNcFc",
+              "title": "Q3,4",
+              "subtitle": "",
+              "duration": "40:40",
+              "url": "https://www.youtube.com/watch?v=cK2sJCfNcFc&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/cK2sJCfNcFc/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.2 Question 3,4-10th Class Math New Book Exercise 1.2 Q3,Q4"
+            },
+            {
+              "order": 3,
+              "playlistIndex": 5,
+              "videoId": "Crj0XxBLNI4",
+              "title": "Q5,6,7",
+              "subtitle": "",
+              "duration": "25:49",
+              "url": "https://www.youtube.com/watch?v=Crj0XxBLNI4&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/Crj0XxBLNI4/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.2 Question 5,6,7-10th Class Math Exercise 1.2 Q5,Q6,Q7"
+            }
+          ]
+        },
+        {
+          "id": "ex1.3",
+          "title": "Exercise 1.3",
+          "videos": [
+            {
+              "order": 1,
+              "playlistIndex": 6,
+              "videoId": "1UjTlOzQYrc",
+              "title": "Q1,2",
+              "subtitle": "",
+              "duration": "36:38",
+              "url": "https://www.youtube.com/watch?v=1UjTlOzQYrc&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/1UjTlOzQYrc/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.3 Question 1,2- 10th Class Math New Book Exercise 1.3 Q1,Q2"
+            },
+            {
+              "order": 2,
+              "playlistIndex": 7,
+              "videoId": "xXU2QHkXDAA",
+              "title": "Q3,4,5",
+              "subtitle": "",
+              "duration": "25:31",
+              "url": "https://www.youtube.com/watch?v=xXU2QHkXDAA&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/xXU2QHkXDAA/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.3 Question 3,4,5- 10th Class Math Exercise 1.3 Q3,Q4,Q5"
+            }
+          ]
+        },
+        {
+          "id": "ex1.4",
+          "title": "Exercise 1.4",
+          "videos": [
+            {
+              "order": 1,
+              "playlistIndex": 8,
+              "videoId": "6EkQTL-uyEk",
+              "title": "Q1 (i",
+              "subtitle": "",
+              "duration": "33:07",
+              "url": "https://www.youtube.com/watch?v=6EkQTL-uyEk&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/6EkQTL-uyEk/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.4 Question 1 (i-vii)- 10 Class Math Exercise 1.4 Question 1"
+            },
+            {
+              "order": 2,
+              "playlistIndex": 9,
+              "videoId": "ur6qD-hTz_Q",
+              "title": "Q2 (i,ii)",
+              "subtitle": "",
+              "duration": "34:01",
+              "url": "https://www.youtube.com/watch?v=ur6qD-hTz_Q&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/ur6qD-hTz_Q/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.4 Question 2 (i,ii) -10th Class Math Exercise 1.4 Q2 (i,ii)"
+            },
+            {
+              "order": 3,
+              "playlistIndex": 10,
+              "videoId": "RjbeopiJl2c",
+              "title": "Q2 (iii,iv,v)",
+              "subtitle": "",
+              "duration": "26:18",
+              "url": "https://www.youtube.com/watch?v=RjbeopiJl2c&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/RjbeopiJl2c/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Exercise 1.4 Question 2 (iii,iv,v)-10 Class Math E.X 1.4 Q2 (iii,iv,v)"
+            }
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Review Exercise 1",
+          "videos": [
+            {
+              "order": 1,
+              "playlistIndex": 11,
+              "videoId": "oh9eDq34J4I",
+              "title": "Q1 to 5",
+              "subtitle": "",
+              "duration": "46:27",
+              "url": "https://www.youtube.com/watch?v=oh9eDq34J4I&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/oh9eDq34J4I/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Review Exercise 1 Question 1 to 5 -10 Class Math Review Exercise 1"
+            },
+            {
+              "order": 2,
+              "playlistIndex": 12,
+              "videoId": "AOdNjtwqb5s",
+              "title": "Q6,7,8,9,10",
+              "subtitle": "",
+              "duration": "53:46",
+              "url": "https://www.youtube.com/watch?v=AOdNjtwqb5s&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/AOdNjtwqb5s/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 1 Review Exercise 1 Q6,Q7,Q8,Q9,Q10-10 Class Math Review Exercise 1 "
+            }
+          ]
+        }
+      ],
+      "videoCount": 12
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "title": "Chapter 2",
+      "sections": [
+        {
+          "id": "ex2.1",
+          "title": "Exercise 2.1",
+          "videos": [
+            {
+              "order": 1,
+              "playlistIndex": 13,
+              "videoId": "pJ8gcb3PFcE",
+              "title": "Q1,2",
+              "subtitle": "",
+              "duration": "42:32",
+              "url": "https://www.youtube.com/watch?v=pJ8gcb3PFcE&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/pJ8gcb3PFcE/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 2 Exercise 2.1 Question 1,2-10th Class Math Exercise 2.1 Q1,Q2 -PCTB"
+            },
+            {
+              "order": 2,
+              "playlistIndex": 14,
+              "videoId": "hrPuxW_iWsg",
+              "title": "Q3",
+              "subtitle": "",
+              "duration": "55:20",
+              "url": "https://www.youtube.com/watch?v=hrPuxW_iWsg&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/hrPuxW_iWsg/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 2 Exercise 2.1 Question 3-10th Math E.X  2.1 Q3-Completing Square Method"
+            },
+            {
+              "order": 3,
+              "playlistIndex": 15,
+              "videoId": "owwEjx03Unc",
+              "title": "Q4",
+              "subtitle": "",
+              "duration": "33:58",
+              "url": "https://www.youtube.com/watch?v=owwEjx03Unc&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/owwEjx03Unc/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 2 Exercise 2.1 Question 4 - 10 Class Math E.X  2.1 Q4 -Quadratic Formula"
+            },
+            {
+              "order": 4,
+              "playlistIndex": 16,
+              "videoId": "rLAXL1LThQM",
+              "title": "Q5 (i,ii)",
+              "subtitle": "",
+              "duration": "56:09",
+              "url": "https://www.youtube.com/watch?v=rLAXL1LThQM&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/rLAXL1LThQM/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 2 Exercise 2.1 Q5 (i,ii)-10 Math E.X 2.1-Quadratic Equation Graphically "
+            },
+            {
+              "order": 5,
+              "playlistIndex": 17,
+              "videoId": "r5B2XPO78FY",
+              "title": "Q5 (iii,iv)",
+              "subtitle": "",
+              "duration": "53:44",
+              "url": "https://www.youtube.com/watch?v=r5B2XPO78FY&list=PLQQEojUXetM0bAvTU87yW0OCHdwfr7F3B",
+              "thumb": "https://i.ytimg.com/vi/r5B2XPO78FY/hqdefault.jpg",
+              "originalTitle": "Class 10th Math New Book Ch 2 Exercise 2.1 Q5 (iii,iv)-Math E.X 2.1- Quadratic Equation Graphically "
+            }
+          ]
+        }
+      ],
+      "videoCount": 5
+    }
+  ]
+}

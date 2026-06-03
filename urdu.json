@@ -1,0 +1,700 @@
+{
+  "id": "urdu",
+  "title": "10th Urdu",
+  "subtitle": "Punjab Board",
+  "kind": "chapters",
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "title": "Hamd",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "Ntp7YZDwUJ0",
+          "title": "Hamd Tashreeh - Khulasa",
+          "subtitle": "",
+          "duration": "28:10",
+          "url": "https://www.youtube.com/watch?v=Ntp7YZDwUJ0&list=PLI-NxcTUPiPxhFvJejZvJZbsZkeKlk8tg",
+          "thumb": "https://i.ytimg.com/vi/Ntp7YZDwUJ0/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 1 Hamd Tashreeh - 10th Class Urdu Chapter 1 Khulasa - Urdu Class 10 Chapter 1"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "eq_Y9NN6DMA",
+          "title": "Hamd Exercise - Question Answer",
+          "subtitle": "",
+          "duration": "14:19",
+          "url": "https://www.youtube.com/watch?v=eq_Y9NN6DMA&list=PLI-NxcTUPiPxhFvJejZvJZbsZkeKlk8tg",
+          "thumb": "https://i.ytimg.com/vi/eq_Y9NN6DMA/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 1 Hamd Exercise - 10 Class Urdu Chapter 1 Question Answer - Urdu Class 10 Ch 1"
+        }
+      ],
+      "videoCount": 2
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "title": "Naat",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "H4glYgLFCwo",
+          "title": "Naat Tashreeh - Khulasa",
+          "subtitle": "",
+          "duration": "23:41",
+          "url": "https://www.youtube.com/watch?v=H4glYgLFCwo&list=PLI-NxcTUPiPxJDYNpAMWNtr3aX-Ob-J32",
+          "thumb": "https://i.ytimg.com/vi/H4glYgLFCwo/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 2 Naat Tashreeh - 10th Class Urdu Chapter 2 Khulasa - Urdu Class 10 Chapter 2"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "flZQ6Birq70",
+          "title": "Exercise - Question Answer",
+          "subtitle": "",
+          "duration": "12:37",
+          "url": "https://www.youtube.com/watch?v=flZQ6Birq70&list=PLI-NxcTUPiPxJDYNpAMWNtr3aX-Ob-J32",
+          "thumb": "https://i.ytimg.com/vi/flZQ6Birq70/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 2 Exercise - 10 Class Urdu Chapter 2 Question Answer - Urdu Class 10 Chapter 2"
+        }
+      ],
+      "videoCount": 2
+    },
+    {
+      "id": "ch3",
+      "number": 3,
+      "title": "Chapter 3",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "dFXLMoU_cbM",
+          "title": "Words Meaning",
+          "subtitle": "",
+          "duration": "19:54",
+          "url": "https://www.youtube.com/watch?v=dFXLMoU_cbM&list=PLI-NxcTUPiPxhI7Us1vyxRHAvVF8eFAAK",
+          "thumb": "https://i.ytimg.com/vi/dFXLMoU_cbM/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 3 - 10th Class Urdu Chapter 3 Words Meaning - Urdu Class 10 Chapter 3"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "bhEHCHrvSsQ",
+          "title": "Tashreeh - Khulasa",
+          "subtitle": "",
+          "duration": "6:54",
+          "url": "https://www.youtube.com/watch?v=bhEHCHrvSsQ&list=PLI-NxcTUPiPxhI7Us1vyxRHAvVF8eFAAK",
+          "thumb": "https://i.ytimg.com/vi/bhEHCHrvSsQ/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 3 Tashreeh - 10th Class Urdu Chapter 3 Khulasa - Urdu Class 10 Chapter 3"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "Nc0F64nqezA",
+          "title": "Exercise - Question Answer",
+          "subtitle": "",
+          "duration": "24:10",
+          "url": "https://www.youtube.com/watch?v=Nc0F64nqezA&list=PLI-NxcTUPiPxhI7Us1vyxRHAvVF8eFAAK",
+          "thumb": "https://i.ytimg.com/vi/Nc0F64nqezA/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 3 Exercise - 10 Class Urdu Chapter 3 Question Answer - Urdu Class 10 Chapter 3"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "Ri6kPN8RM7s",
+          "title": "Sayaq o Sabaq",
+          "subtitle": "",
+          "duration": "9:07",
+          "url": "https://www.youtube.com/watch?v=Ri6kPN8RM7s&list=PLI-NxcTUPiPxhI7Us1vyxRHAvVF8eFAAK",
+          "thumb": "https://i.ytimg.com/vi/Ri6kPN8RM7s/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 3 - 10th Class Urdu Chapter 3 Sayaq o Sabaq - Urdu Class 10 Chapter 3"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch4",
+      "number": 4,
+      "title": "Chapter 4",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "7pVcoOgB2ik",
+          "title": "Words Meaning",
+          "subtitle": "",
+          "duration": "11:14",
+          "url": "https://www.youtube.com/watch?v=7pVcoOgB2ik&list=PLI-NxcTUPiPxsZWrAgq5inuVIHi7_mXB-",
+          "thumb": "https://i.ytimg.com/vi/7pVcoOgB2ik/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 4 - 10th Class Urdu Chapter 4 Words Meaning - Urdu Class 10 Chapter 4"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "pRAopbh59cU",
+          "title": "Khulasa - Tashreeh",
+          "subtitle": "",
+          "duration": "6:35",
+          "url": "https://www.youtube.com/watch?v=pRAopbh59cU&list=PLI-NxcTUPiPxsZWrAgq5inuVIHi7_mXB-",
+          "thumb": "https://i.ytimg.com/vi/pRAopbh59cU/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 4 Khulasa - 10th Class Urdu Chapter 4 Tashreeh - Urdu Class 10 Chapter 4"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "4zIQzMTB2yQ",
+          "title": "Exercise - Question Answer",
+          "subtitle": "",
+          "duration": "19:44",
+          "url": "https://www.youtube.com/watch?v=4zIQzMTB2yQ&list=PLI-NxcTUPiPxsZWrAgq5inuVIHi7_mXB-",
+          "thumb": "https://i.ytimg.com/vi/4zIQzMTB2yQ/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 4 Exercise - 10 Class Urdu Chapter 4 Question Answer - Urdu Class 10 Chapter 4"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "dBpfKCjqWxQ",
+          "title": "Sayaq o Sabaq",
+          "subtitle": "",
+          "duration": "10:07",
+          "url": "https://www.youtube.com/watch?v=dBpfKCjqWxQ&list=PLI-NxcTUPiPxsZWrAgq5inuVIHi7_mXB-",
+          "thumb": "https://i.ytimg.com/vi/dBpfKCjqWxQ/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 4 - 10th Class Urdu Chapter 4 Sayaq o Sabaq - Urdu Class 10 Chapter 4"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch5",
+      "number": 5,
+      "title": "Chapter 5",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "ObWArL8YGNg",
+          "title": "Chapter 4 Words Meaning",
+          "subtitle": "",
+          "duration": "17:04",
+          "url": "https://www.youtube.com/watch?v=ObWArL8YGNg&list=PLI-NxcTUPiPybznddVkJj5dyfTCodszqc",
+          "thumb": "https://i.ytimg.com/vi/ObWArL8YGNg/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 5 - 10th Class Urdu Chapter 4 Words Meaning - Urdu Class 10 Chapter 5"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "Ut1fda0X2GU",
+          "title": "Tashreeh - Khulasa",
+          "subtitle": "",
+          "duration": "8:06",
+          "url": "https://www.youtube.com/watch?v=Ut1fda0X2GU&list=PLI-NxcTUPiPybznddVkJj5dyfTCodszqc",
+          "thumb": "https://i.ytimg.com/vi/Ut1fda0X2GU/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 5 Tashreeh - 10th Class Urdu Chapter 5 Khulasa - Urdu Class 10 Chapter 5"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "9ElpFuiCsgs",
+          "title": "Exercise - Question Answer",
+          "subtitle": "",
+          "duration": "18:53",
+          "url": "https://www.youtube.com/watch?v=9ElpFuiCsgs&list=PLI-NxcTUPiPybznddVkJj5dyfTCodszqc",
+          "thumb": "https://i.ytimg.com/vi/9ElpFuiCsgs/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 5 Exercise -10th Class Urdu Chapter 5 Question Answer -Urdu Class 10 Chapter 5"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "uT_Jy3n1jJE",
+          "title": "Exercise - Sayaq o Sabaq",
+          "subtitle": "",
+          "duration": "11:16",
+          "url": "https://www.youtube.com/watch?v=uT_Jy3n1jJE&list=PLI-NxcTUPiPybznddVkJj5dyfTCodszqc",
+          "thumb": "https://i.ytimg.com/vi/uT_Jy3n1jJE/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 5 Exercise - 10th Class Urdu Chapter 5 Sayaq o Sabaq - Urdu Class 10 Chapter 5"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch6",
+      "number": 6,
+      "title": "Chapter 6",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "lXFBCWe8W9E",
+          "title": "Words Meaning",
+          "subtitle": "",
+          "duration": "12:07",
+          "url": "https://www.youtube.com/watch?v=lXFBCWe8W9E&list=PLI-NxcTUPiPxG_pSVBfPf8YyDdd_Zuf2V",
+          "thumb": "https://i.ytimg.com/vi/lXFBCWe8W9E/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 6 - 10th Class Urdu Chapter 6 Words Meaning - Urdu Class 10 Chapter 6"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "GZVkujVBthc",
+          "title": "Tashreeh - Khulasa",
+          "subtitle": "",
+          "duration": "5:56",
+          "url": "https://www.youtube.com/watch?v=GZVkujVBthc&list=PLI-NxcTUPiPxG_pSVBfPf8YyDdd_Zuf2V",
+          "thumb": "https://i.ytimg.com/vi/GZVkujVBthc/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 6 Tashreeh - 10th Class Urdu Chapter 6 Khulasa - Urdu Class 10 Chapter 6"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "k2J0PsJdixI",
+          "title": "Exercise - Question Answer",
+          "subtitle": "",
+          "duration": "14:25",
+          "url": "https://www.youtube.com/watch?v=k2J0PsJdixI&list=PLI-NxcTUPiPxG_pSVBfPf8YyDdd_Zuf2V",
+          "thumb": "https://i.ytimg.com/vi/k2J0PsJdixI/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 6 Exercise -10th Class Urdu Chapter 6 Question Answer -Urdu Class 10 Chapter 6"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "9vGZLM1nvfU",
+          "title": "Exercise - Sayaq o Sabaq",
+          "subtitle": "",
+          "duration": "11:08",
+          "url": "https://www.youtube.com/watch?v=9vGZLM1nvfU&list=PLI-NxcTUPiPxG_pSVBfPf8YyDdd_Zuf2V",
+          "thumb": "https://i.ytimg.com/vi/9vGZLM1nvfU/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 6 Exercise - 10th Class Urdu Chapter 6 Sayaq o Sabaq - Urdu Class 10 Chapter 6"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch7",
+      "number": 7,
+      "title": "Chapter 7",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "YkWO1UzFYwo",
+          "title": "Words Meaning - Exercise",
+          "subtitle": "",
+          "duration": "16:52",
+          "url": "https://www.youtube.com/watch?v=YkWO1UzFYwo&list=PLI-NxcTUPiPwmNRiRl0Yg2TJ5QkoyPfd6",
+          "thumb": "https://i.ytimg.com/vi/YkWO1UzFYwo/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 7 Words Meaning - Class 10 Urdu Chapter 7 Exercise - Urdu Class 10 Chapter 7"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "Q1oRjQkCjh8",
+          "title": "Tashreeh - Khulasa",
+          "subtitle": "",
+          "duration": "7:34",
+          "url": "https://www.youtube.com/watch?v=Q1oRjQkCjh8&list=PLI-NxcTUPiPwmNRiRl0Yg2TJ5QkoyPfd6",
+          "thumb": "https://i.ytimg.com/vi/Q1oRjQkCjh8/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 7 Tashreeh - Class 10 Urdu Chapter 7 Khulasa - Urdu Class 10 Chapter 7"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "VZc-UAH1hAg",
+          "title": "Question Answer - Exercise",
+          "subtitle": "",
+          "duration": "17:25",
+          "url": "https://www.youtube.com/watch?v=VZc-UAH1hAg&list=PLI-NxcTUPiPwmNRiRl0Yg2TJ5QkoyPfd6",
+          "thumb": "https://i.ytimg.com/vi/VZc-UAH1hAg/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 7 Question Answer -Class 10 Urdu Chapter 7 Exercise- Urdu Class 10 Chapter 7"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "12dtlnfZva4",
+          "title": "Sayaq o Sabaq - Exercise",
+          "subtitle": "",
+          "duration": "12:01",
+          "url": "https://www.youtube.com/watch?v=12dtlnfZva4&list=PLI-NxcTUPiPwmNRiRl0Yg2TJ5QkoyPfd6",
+          "thumb": "https://i.ytimg.com/vi/12dtlnfZva4/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 7 Sayaq o Sabaq - Class 10 Urdu Chapter 7 Exercise- Urdu Class 10 Chapter 7"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch8",
+      "number": 8,
+      "title": "Chapter 8",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "_pYeouKdx1A",
+          "title": "Alfaz Maani - Words Meaning",
+          "subtitle": "",
+          "duration": "14:54",
+          "url": "https://www.youtube.com/watch?v=_pYeouKdx1A&list=PLI-NxcTUPiPzPNUPIe-zEPMp5SYozk6Pp",
+          "thumb": "https://i.ytimg.com/vi/_pYeouKdx1A/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 8 Alfaz Maini -Class 10 Urdu Chapter 8 Words Meaning-Urdu Class 10 Chapter 8"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "8DE1oVblToU",
+          "title": "Khulasa - - Tashreeh",
+          "subtitle": "",
+          "duration": "7:53",
+          "url": "https://www.youtube.com/watch?v=8DE1oVblToU&list=PLI-NxcTUPiPzPNUPIe-zEPMp5SYozk6Pp",
+          "thumb": "https://i.ytimg.com/vi/8DE1oVblToU/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 8 Khulasa - Urdu Class 10 Chapter 8 - 10th Class Urdu Chapter 8 Tashreeh"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "INy_vMda2jY",
+          "title": "Exercise - Question Answers",
+          "subtitle": "",
+          "duration": "16:06",
+          "url": "https://www.youtube.com/watch?v=INy_vMda2jY&list=PLI-NxcTUPiPzPNUPIe-zEPMp5SYozk6Pp",
+          "thumb": "https://i.ytimg.com/vi/INy_vMda2jY/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 8 Exercise - 10th Class Urdu Chapter 8 Question Answers"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "N-7dUVLgQlw",
+          "title": "Sayaq o Sabaq - Exercise",
+          "subtitle": "",
+          "duration": "12:11",
+          "url": "https://www.youtube.com/watch?v=N-7dUVLgQlw&list=PLI-NxcTUPiPzPNUPIe-zEPMp5SYozk6Pp",
+          "thumb": "https://i.ytimg.com/vi/N-7dUVLgQlw/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 8 Sayaq o Sabaq - Class 10 Urdu Chapter 8 Exercise- Urdu Class 10 Chapter 8"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch9",
+      "number": 9,
+      "title": "Chapter 9",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "c-iQyrdvbr8",
+          "title": "Alfaz Maani - - Words Meaning",
+          "subtitle": "",
+          "duration": "10:36",
+          "url": "https://www.youtube.com/watch?v=c-iQyrdvbr8&list=PLI-NxcTUPiPx55-Asfw4W--8fGQtnGMZn",
+          "thumb": "https://i.ytimg.com/vi/c-iQyrdvbr8/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 9 Alfaz Maini -Urdu Class 10 Chapter 9-Class 10 Urdu Chapter 9 Words Meaning"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "iIwhO0EuIbE",
+          "title": "Exercise - Question Answers",
+          "subtitle": "",
+          "duration": "15:07",
+          "url": "https://www.youtube.com/watch?v=iIwhO0EuIbE&list=PLI-NxcTUPiPx55-Asfw4W--8fGQtnGMZn",
+          "thumb": "https://i.ytimg.com/vi/iIwhO0EuIbE/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 9 Exercise - 10th Class Urdu Chapter 9 Question Answers"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "NX-vd2OI7Sk",
+          "title": "Khulasa - - Tashreeh",
+          "subtitle": "",
+          "duration": "5:21",
+          "url": "https://www.youtube.com/watch?v=NX-vd2OI7Sk&list=PLI-NxcTUPiPx55-Asfw4W--8fGQtnGMZn",
+          "thumb": "https://i.ytimg.com/vi/NX-vd2OI7Sk/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 9 Khulasa - Urdu Class 10 Chapter 9 - 10th Class Urdu Chapter 9 Tashreeh"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "s9Bgfe-YwAo",
+          "title": "Sayaq o Sabaq - Exercise",
+          "subtitle": "",
+          "duration": "9:26",
+          "url": "https://www.youtube.com/watch?v=s9Bgfe-YwAo&list=PLI-NxcTUPiPx55-Asfw4W--8fGQtnGMZn",
+          "thumb": "https://i.ytimg.com/vi/s9Bgfe-YwAo/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 9 Sayaq o Sabaq - Class 10 Urdu Chapter 9 Exercise- Urdu Class 10 Chapter 9"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch10",
+      "number": 10,
+      "title": "Chapter 10",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "PdpU51efI9g",
+          "title": "Alfaz Maani - - 10 Urdu Words Meaning",
+          "subtitle": "",
+          "duration": "18:43",
+          "url": "https://www.youtube.com/watch?v=PdpU51efI9g&list=PLI-NxcTUPiPyx9Xy-dBzySHCm98vXexIC",
+          "thumb": "https://i.ytimg.com/vi/PdpU51efI9g/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 10 Alfaz Maini - Urdu Class 10 Chapter 10 - 10 Urdu Chapter 10 Words Meaning"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "t5UBVYaytoQ",
+          "title": "Khulasa - - Tashreeh",
+          "subtitle": "",
+          "duration": "6:18",
+          "url": "https://www.youtube.com/watch?v=t5UBVYaytoQ&list=PLI-NxcTUPiPyx9Xy-dBzySHCm98vXexIC",
+          "thumb": "https://i.ytimg.com/vi/t5UBVYaytoQ/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 10 Khulasa - Urdu Class 10 Chapter 10 - 10th Class Urdu Chapter 10 Tashreeh"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "Ise4xgR0rAA",
+          "title": "Sayaq o Sabaq - Exercise",
+          "subtitle": "",
+          "duration": "6:37",
+          "url": "https://www.youtube.com/watch?v=Ise4xgR0rAA&list=PLI-NxcTUPiPyx9Xy-dBzySHCm98vXexIC",
+          "thumb": "https://i.ytimg.com/vi/Ise4xgR0rAA/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 10 Sayaq o Sabaq -Class 10 Urdu Chapter 10 Exercise-Urdu Class 10 Chapter 10"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "D8PFSdLn8Ns",
+          "title": "Exercise - Question Answers - MCQs",
+          "subtitle": "",
+          "duration": "24:54",
+          "url": "https://www.youtube.com/watch?v=D8PFSdLn8Ns&list=PLI-NxcTUPiPyx9Xy-dBzySHCm98vXexIC",
+          "thumb": "https://i.ytimg.com/vi/D8PFSdLn8Ns/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 10 Exercise - 10th Class Urdu Chapter 10 Question Answers - Urdu Class 10 MCQs"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch11",
+      "number": 11,
+      "title": "Chapter 11",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "wNaRPaMyml0",
+          "title": "Alfaz Maani - - Words Meaning",
+          "subtitle": "",
+          "duration": "12:42",
+          "url": "https://www.youtube.com/watch?v=wNaRPaMyml0&list=PLI-NxcTUPiPzygpmY6jKZJi_5hhWk94p0",
+          "thumb": "https://i.ytimg.com/vi/wNaRPaMyml0/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 11 Alfaz Maini -Urdu Class 10 Ch 11 - Class 10 Urdu Chapter 11 Words Meaning"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "AqDnFaFNZpg",
+          "title": "Khulasa - - Tashreeh",
+          "subtitle": "",
+          "duration": "6:09",
+          "url": "https://www.youtube.com/watch?v=AqDnFaFNZpg&list=PLI-NxcTUPiPzygpmY6jKZJi_5hhWk94p0",
+          "thumb": "https://i.ytimg.com/vi/AqDnFaFNZpg/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 11 Khulasa - Urdu Class 10 Chapter 11 - 10th Class Urdu Chapter 11 Tashreeh"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "0Vc-yD4Wql4",
+          "title": "Exercise - Question Answers",
+          "subtitle": "",
+          "duration": "6:09",
+          "url": "https://www.youtube.com/watch?v=0Vc-yD4Wql4&list=PLI-NxcTUPiPzygpmY6jKZJi_5hhWk94p0",
+          "thumb": "https://i.ytimg.com/vi/0Vc-yD4Wql4/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 11 Exercise - 10th Class Urdu Chapter 11 Question Answers"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "WqM3XoqZv5c",
+          "title": "Sayaq o Sabaq - Exercise",
+          "subtitle": "",
+          "duration": "11:19",
+          "url": "https://www.youtube.com/watch?v=WqM3XoqZv5c&list=PLI-NxcTUPiPzygpmY6jKZJi_5hhWk94p0",
+          "thumb": "https://i.ytimg.com/vi/WqM3XoqZv5c/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 11 Sayaq o Sabaq -Class 10 Urdu Chapter 11 Exercise-Urdu Class 10 Chapter 11"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch12",
+      "number": 12,
+      "title": "Chapter 12",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "MpcqtmbOSUc",
+          "title": "Alfaz Maani - Urdu 10 - Words Meaning",
+          "subtitle": "",
+          "duration": "13:17",
+          "url": "https://www.youtube.com/watch?v=MpcqtmbOSUc&list=PLI-NxcTUPiPzEETEt5TorptbLAa9SubnD",
+          "thumb": "https://i.ytimg.com/vi/MpcqtmbOSUc/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 12 Alfaz Maini - Urdu 10 Chapter 12 - Class 10 Urdu Chapter 12 Words Meaning"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "C-jZ-2oBxqU",
+          "title": "Khulasa - - Tashreeh",
+          "subtitle": "",
+          "duration": "6:04",
+          "url": "https://www.youtube.com/watch?v=C-jZ-2oBxqU&list=PLI-NxcTUPiPzEETEt5TorptbLAa9SubnD",
+          "thumb": "https://i.ytimg.com/vi/C-jZ-2oBxqU/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 12 Khulasa - Urdu Class 10 Chapter 12 - 10th Class Urdu Chapter 12 Tashreeh"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "JYlOgm1UQzw",
+          "title": "Exercise - Question Answers - SNC 2023",
+          "subtitle": "",
+          "duration": "17:40",
+          "url": "https://www.youtube.com/watch?v=JYlOgm1UQzw&list=PLI-NxcTUPiPzEETEt5TorptbLAa9SubnD",
+          "thumb": "https://i.ytimg.com/vi/JYlOgm1UQzw/hqdefault.jpg",
+          "originalTitle": "Class 10 Urdu Chapter 12 Exercise - 10th Class Urdu Chapter 12 Question Answers - SNC 2023"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "0IVydLc0OhI",
+          "title": "Sayaq o Sabaq- Exercise",
+          "subtitle": "",
+          "duration": "9:55",
+          "url": "https://www.youtube.com/watch?v=0IVydLc0OhI&list=PLI-NxcTUPiPzEETEt5TorptbLAa9SubnD",
+          "thumb": "https://i.ytimg.com/vi/0IVydLc0OhI/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Chapter 12 Sayaq o Sabaq-Class 10 Urdu Chapter 12 Exercise- Urdu Class 10 Chapter 12"
+        }
+      ],
+      "videoCount": 4
+    },
+    {
+      "id": "ch13",
+      "number": 13,
+      "title": "Khatoot-e-Ghalib",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "vLNGuO3DxMU",
+          "title": "Complete Exercise",
+          "subtitle": "",
+          "duration": "14:17",
+          "url": "https://www.youtube.com/watch?v=vLNGuO3DxMU&list=PLI-NxcTUPiPx8JjmFwj1qUCrQPjJwJ2iT",
+          "thumb": "https://i.ytimg.com/vi/vLNGuO3DxMU/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 13  Khatoot e Ghalib | Complete Exercise"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "nBubcPVLPM4",
+          "title": "Khatoot e Ghalib Ilfaz Mani",
+          "subtitle": "Chap 13",
+          "duration": "9:43",
+          "url": "https://www.youtube.com/watch?v=nBubcPVLPM4&list=PLI-NxcTUPiPx8JjmFwj1qUCrQPjJwJ2iT",
+          "thumb": "https://i.ytimg.com/vi/nBubcPVLPM4/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 13 Khatoot e Ghalib Ilfaz Mani | Class 10th Urdu Chap 13"
+        }
+      ],
+      "videoCount": 2
+    },
+    {
+      "id": "ch14",
+      "number": 14,
+      "title": "Khatut Rasheed Ahmad Siddique",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "K5fePer62Mc",
+          "title": "khatut Rasheed Ahmad Siddique Complete Exercise",
+          "subtitle": "",
+          "duration": "17:05",
+          "url": "https://www.youtube.com/watch?v=K5fePer62Mc&list=PLI-NxcTUPiPy7pXJe33rEBbEjJWTXLo97",
+          "thumb": "https://i.ytimg.com/vi/K5fePer62Mc/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 14 | khatut Rasheed Ahmad Siddique Complete Exercise | Class 10th Urdu Ch 14"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "XAycn3A_PTs",
+          "title": "khatut Rasheed Ahmad Siddique",
+          "subtitle": "",
+          "duration": "10:26",
+          "url": "https://www.youtube.com/watch?v=XAycn3A_PTs&list=PLI-NxcTUPiPy7pXJe33rEBbEjJWTXLo97",
+          "thumb": "https://i.ytimg.com/vi/XAycn3A_PTs/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 14 | khatut Rasheed Ahmad Siddique | Class 10th Urdu Ch 14"
+        }
+      ],
+      "videoCount": 2
+    },
+    {
+      "id": "ch15",
+      "number": 15,
+      "title": "Uth Bandh Kamar Kyun Darta Hai",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "FuH6D1-T1nA",
+          "title": "Uth Bandh Kamar Kyun Darta Hai",
+          "subtitle": "Sayaq o Sabaq",
+          "duration": "8:30",
+          "url": "https://www.youtube.com/watch?v=FuH6D1-T1nA&list=PLI-NxcTUPiPyt7GCItGktYmmYGRsfWfKl",
+          "thumb": "https://i.ytimg.com/vi/FuH6D1-T1nA/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 15 | Uth Bandh Kamar Kyun Darta Hai | Sayaq o Sabaq"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "xiGt7f9W0eA",
+          "title": "Complete Exercise",
+          "subtitle": "",
+          "duration": "11:15",
+          "url": "https://www.youtube.com/watch?v=xiGt7f9W0eA&list=PLI-NxcTUPiPyt7GCItGktYmmYGRsfWfKl",
+          "thumb": "https://i.ytimg.com/vi/xiGt7f9W0eA/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 15 | Uth Bandh Kamar Kyun Darta Hai | Complete Exercise"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "5DNqK_tsJTI",
+          "title": "Tashreeh and Khulasa",
+          "subtitle": "",
+          "duration": "4:38",
+          "url": "https://www.youtube.com/watch?v=5DNqK_tsJTI&list=PLI-NxcTUPiPyt7GCItGktYmmYGRsfWfKl",
+          "thumb": "https://i.ytimg.com/vi/5DNqK_tsJTI/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 15 | Uth Bandh Kamar Kyun Darta Hai | Tashreeh and Khulasa"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "J4bEsBciMxo",
+          "title": "Uth Bandh Kamar Kyun Darta Hai",
+          "subtitle": "",
+          "duration": "8:39",
+          "url": "https://www.youtube.com/watch?v=J4bEsBciMxo&list=PLI-NxcTUPiPyt7GCItGktYmmYGRsfWfKl",
+          "thumb": "https://i.ytimg.com/vi/J4bEsBciMxo/hqdefault.jpg",
+          "originalTitle": "10th Class Urdu Ch 15 | Uth Bandh Kamar Kyun Darta Hai | Class 10th Urdu Ch 15"
+        }
+      ],
+      "videoCount": 4
+    }
+  ]
+}

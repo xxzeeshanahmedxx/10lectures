@@ -1,0 +1,873 @@
+{
+  "id": "computer",
+  "title": "10th Computer",
+  "subtitle": "Punjab Board",
+  "kind": "chapters",
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "title": "Introduction to Programming",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "lQkRS1gdy48",
+          "title": "Introduction to Programming",
+          "subtitle": "",
+          "duration": "10:36",
+          "url": "https://www.youtube.com/watch?v=lQkRS1gdy48&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/lQkRS1gdy48/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Introduction to Programming - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "Q92dVQVQ_N4",
+          "title": "IDE and Compiler",
+          "subtitle": "",
+          "duration": "8:45",
+          "url": "https://www.youtube.com/watch?v=Q92dVQVQ_N4&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/Q92dVQVQ_N4/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - IDE and Compiler - Class 10 Computer Chapter 1 New Book"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "6KOlMAM847E",
+          "title": "Activity 1.1 and 1.2",
+          "subtitle": "",
+          "duration": "4:05",
+          "url": "https://www.youtube.com/watch?v=6KOlMAM847E&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/6KOlMAM847E/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Activity 1.1 and 1.2 - Class 10 Computer Chapter 1 New Book"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "XzQGAlLNsXQ",
+          "title": "Programming Basic and Reserved Words",
+          "subtitle": "",
+          "duration": "8:13",
+          "url": "https://www.youtube.com/watch?v=XzQGAlLNsXQ&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/XzQGAlLNsXQ/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Programming Basic and Reserved Words - 10 Computer Chapter 1"
+        },
+        {
+          "order": 5,
+          "playlistIndex": 5,
+          "videoId": "jhr0VhVt7lE",
+          "title": "Structure of C Program",
+          "subtitle": "",
+          "duration": "8:14",
+          "url": "https://www.youtube.com/watch?v=jhr0VhVt7lE&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/jhr0VhVt7lE/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Structure of C Program - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 6,
+          "playlistIndex": 6,
+          "videoId": "nVOn_fPkiQk",
+          "title": "Purpose and Syntax of Comments",
+          "subtitle": "",
+          "duration": "13:36",
+          "url": "https://www.youtube.com/watch?v=nVOn_fPkiQk&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/nVOn_fPkiQk/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Purpose and Syntax of Comments - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 7,
+          "playlistIndex": 7,
+          "videoId": "Xd5gPievYgU",
+          "title": "Constant and its Types",
+          "subtitle": "",
+          "duration": "5:35",
+          "url": "https://www.youtube.com/watch?v=Xd5gPievYgU&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/Xd5gPievYgU/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Constant and its Types - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 8,
+          "playlistIndex": 8,
+          "videoId": "V7XdrpoB8Uc",
+          "title": "Constants and Variables",
+          "subtitle": "",
+          "duration": "5:59",
+          "url": "https://www.youtube.com/watch?v=V7XdrpoB8Uc&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/V7XdrpoB8Uc/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Constants and Variables - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 9,
+          "playlistIndex": 9,
+          "videoId": "Ait8KUmt5FA",
+          "title": "Variable and its Types",
+          "subtitle": "",
+          "duration": "10:05",
+          "url": "https://www.youtube.com/watch?v=Ait8KUmt5FA&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/Ait8KUmt5FA/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Variable and its Types - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 10,
+          "playlistIndex": 10,
+          "videoId": "lTNM1rZgGck",
+          "title": "Rules for Name a Variable",
+          "subtitle": "",
+          "duration": "5:07",
+          "url": "https://www.youtube.com/watch?v=lTNM1rZgGck&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/lTNM1rZgGck/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Rules for Name a Variable - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 11,
+          "playlistIndex": 11,
+          "videoId": "4Gb8l7oG_aA",
+          "title": "Variable Declaration and Initialization-10",
+          "subtitle": "",
+          "duration": "7:34",
+          "url": "https://www.youtube.com/watch?v=4Gb8l7oG_aA&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/4Gb8l7oG_aA/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 -Variable Declaration and Initialization-10 Computer Chapter 1"
+        },
+        {
+          "order": 12,
+          "playlistIndex": 12,
+          "videoId": "YjlKgvSyOVs",
+          "title": "MCQs",
+          "subtitle": "Exercise Question",
+          "duration": "8:19",
+          "url": "https://www.youtube.com/watch?v=YjlKgvSyOVs&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/YjlKgvSyOVs/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 MCQs - Exercise Question - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 13,
+          "playlistIndex": 13,
+          "videoId": "o0ejnlNRsFo",
+          "title": "Question Answers",
+          "subtitle": "",
+          "duration": "9:19",
+          "url": "https://www.youtube.com/watch?v=o0ejnlNRsFo&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/o0ejnlNRsFo/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Question Answers - Class 10 Computer Chapter 1"
+        },
+        {
+          "order": 14,
+          "playlistIndex": 14,
+          "videoId": "MqCWdXPdJXQ",
+          "title": "Exercise Question",
+          "subtitle": "",
+          "duration": "4:31",
+          "url": "https://www.youtube.com/watch?v=MqCWdXPdJXQ&list=PLI-NxcTUPiPyTIU5iPEVmSjvtgGVEaqp3",
+          "thumb": "https://i.ytimg.com/vi/MqCWdXPdJXQ/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 1 - Exercise Question - Class 10 Computer Chapter 1"
+        }
+      ],
+      "videoCount": 14
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "title": "User Interaction",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "cfw_rZt3fus",
+          "title": "printf Function",
+          "subtitle": "",
+          "duration": "6:49",
+          "url": "https://www.youtube.com/watch?v=cfw_rZt3fus&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/cfw_rZt3fus/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 | Print F Function | Class 10 Computer Chapter 2 | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "kjFTPMPVGD0",
+          "title": "Format Specifiers",
+          "subtitle": "",
+          "duration": "14:22",
+          "url": "https://www.youtube.com/watch?v=kjFTPMPVGD0&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/kjFTPMPVGD0/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 | Format Specifiers | Class 10 Computer Chapter 2 | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "22siIZ-maKk",
+          "title": "scanf Functions & Examples",
+          "subtitle": "",
+          "duration": "13:50",
+          "url": "https://www.youtube.com/watch?v=22siIZ-maKk&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/22siIZ-maKk/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 | Scan f Functions & Examples | Class 10 Computer Chapter 2 | SNC 2023"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "XHfrYoshNSQ",
+          "title": "getch Function",
+          "subtitle": "",
+          "duration": "9:48",
+          "url": "https://www.youtube.com/watch?v=XHfrYoshNSQ&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/XHfrYoshNSQ/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 Book | Getch Function | Class 10 Computer Chapter 2 | SNC 2023 | PTTB"
+        },
+        {
+          "order": 5,
+          "playlistIndex": 5,
+          "videoId": "H0psYAEv9SI",
+          "title": "Activities 1 to 5",
+          "subtitle": "",
+          "duration": "8:14",
+          "url": "https://www.youtube.com/watch?v=H0psYAEv9SI&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/H0psYAEv9SI/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 | Activities 1 to 5 | Class 10 Computer Chapter 2 | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 6,
+          "playlistIndex": 6,
+          "videoId": "B0b9yqNA43s",
+          "title": "Escape Sequence",
+          "subtitle": "",
+          "duration": "17:52",
+          "url": "https://www.youtube.com/watch?v=B0b9yqNA43s&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/B0b9yqNA43s/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 | Escape Sequence | Class 10 Computer Chapter 2 | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 7,
+          "playlistIndex": 7,
+          "videoId": "iMcOwyx2ycU",
+          "title": "Operators and Assignment Operators",
+          "subtitle": "",
+          "duration": "14:32",
+          "url": "https://www.youtube.com/watch?v=iMcOwyx2ycU&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/iMcOwyx2ycU/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 New Book | Operators and Assignment Operators | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 8,
+          "playlistIndex": 8,
+          "videoId": "rxYGVB7Deyc",
+          "title": "Operators Addition Subtraction & Modulus",
+          "subtitle": "",
+          "duration": "10:42",
+          "url": "https://www.youtube.com/watch?v=rxYGVB7Deyc&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/rxYGVB7Deyc/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 New Book | Operators Addition Subtraction & Modulus | SNC 2023 | PTTB"
+        },
+        {
+          "order": 9,
+          "playlistIndex": 9,
+          "videoId": "icvUl5j4W7U",
+          "title": "Relational Operators and Assignment Operator",
+          "subtitle": "",
+          "duration": "10:03",
+          "url": "https://www.youtube.com/watch?v=icvUl5j4W7U&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/icvUl5j4W7U/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Book Chapter 2| Relational Operators and Assignment Operator | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 10,
+          "playlistIndex": 10,
+          "videoId": "ONyO9vYNVxU",
+          "title": "Logical Operators",
+          "subtitle": "",
+          "duration": "14:38",
+          "url": "https://www.youtube.com/watch?v=ONyO9vYNVxU&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/ONyO9vYNVxU/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 New Book | Logical Operators | Class 10 Computer Chapter 2 | SNC 2023"
+        },
+        {
+          "order": 11,
+          "playlistIndex": 11,
+          "videoId": "o5WHFwHLZn8",
+          "title": "Activities 6 to 9",
+          "subtitle": "",
+          "duration": "8:31",
+          "url": "https://www.youtube.com/watch?v=o5WHFwHLZn8&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/o5WHFwHLZn8/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 New Book | Activities 6 to 9 | Class 10 Computer Chapter 2 | SNC 2023"
+        },
+        {
+          "order": 12,
+          "playlistIndex": 12,
+          "videoId": "Rnc-WxwJ5p4",
+          "title": "Unary VS Binary Operators",
+          "subtitle": "",
+          "duration": "5:06",
+          "url": "https://www.youtube.com/watch?v=Rnc-WxwJ5p4&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/Rnc-WxwJ5p4/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2| Unary VS Binary Operators | 10 Computer Chapter 2 | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 13,
+          "playlistIndex": 13,
+          "videoId": "14V2R4geYWM",
+          "title": "Operators Precedence",
+          "subtitle": "",
+          "duration": "7:10",
+          "url": "https://www.youtube.com/watch?v=14V2R4geYWM&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/14V2R4geYWM/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 | Operators Precedence | Class 10 Computer Chapter 2 | SNC 2023 | PTTB"
+        },
+        {
+          "order": 14,
+          "playlistIndex": 14,
+          "videoId": "ATfB7sg16y8",
+          "title": "Activities 10, 11, 12",
+          "subtitle": "",
+          "duration": "5:30",
+          "url": "https://www.youtube.com/watch?v=ATfB7sg16y8&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/ATfB7sg16y8/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Chapter 2 | Activities 10,11,12 | Class 10 Computer Chapter 2 | SNC 2023 | PTTB"
+        },
+        {
+          "order": 15,
+          "playlistIndex": 15,
+          "videoId": "Fu2cpWKerho",
+          "title": "Exercise MCQs",
+          "subtitle": "",
+          "duration": "9:51",
+          "url": "https://www.youtube.com/watch?v=Fu2cpWKerho&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/Fu2cpWKerho/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Book Chapter 2 | Exercise MCQs | Class 10 Computer Chapter 2 | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 16,
+          "playlistIndex": 16,
+          "videoId": "S32e-X_JvWI",
+          "title": "Exercise",
+          "subtitle": "",
+          "duration": "16:36",
+          "url": "https://www.youtube.com/watch?v=S32e-X_JvWI&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/S32e-X_JvWI/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Book Chapter 2 | Exercise | Class 10 Computer Chapter 2 | SNC 2023 | PTTB |"
+        },
+        {
+          "order": 17,
+          "playlistIndex": 17,
+          "videoId": "VAmCu4s7-Sk",
+          "title": "Question Answers",
+          "subtitle": "",
+          "duration": "5:00",
+          "url": "https://www.youtube.com/watch?v=VAmCu4s7-Sk&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/VAmCu4s7-Sk/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Book Chapter 2 | Question Answers | Class 10 Computer Chapter 2 |SNC 2023 | PTTB"
+        },
+        {
+          "order": 18,
+          "playlistIndex": 18,
+          "videoId": "9IrWVmfd5og",
+          "title": "Programming Exercise",
+          "subtitle": "",
+          "duration": "9:46",
+          "url": "https://www.youtube.com/watch?v=9IrWVmfd5og&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/9IrWVmfd5og/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Book Chapter 2 | Programming Exercise | Class 10 Computer Chapter 2 | SNC 2023"
+        },
+        {
+          "order": 19,
+          "playlistIndex": 19,
+          "videoId": "wGv5R_kDPbY",
+          "title": "Exercise 5, 6, 7",
+          "subtitle": "",
+          "duration": "13:38",
+          "url": "https://www.youtube.com/watch?v=wGv5R_kDPbY&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/wGv5R_kDPbY/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Book Chapter 2 | Exercise 5,6,7 | Class 10 Computer Chapter 2 | SNC 2023 | PTTB"
+        },
+        {
+          "order": 20,
+          "playlistIndex": 20,
+          "videoId": "EKWGRejTr3E",
+          "title": "Exercise 8, 9, 10",
+          "subtitle": "",
+          "duration": "9:48",
+          "url": "https://www.youtube.com/watch?v=EKWGRejTr3E&list=PLI-NxcTUPiPxVBxSOzRAF6uuI8hAp3jGk",
+          "thumb": "https://i.ytimg.com/vi/EKWGRejTr3E/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Book Chapter 2 | Exercise 8,9,10 | Class 10 Computer Chapter 2 | SNC 2023 | PTTB"
+        }
+      ],
+      "videoCount": 20
+    },
+    {
+      "id": "ch3",
+      "number": 3,
+      "title": "Chapter 3",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "hx8HNAsTk7k",
+          "title": "Programming Exercise 5, 6, 7",
+          "subtitle": "",
+          "duration": "14:55",
+          "url": "https://www.youtube.com/watch?v=hx8HNAsTk7k&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/hx8HNAsTk7k/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 Programming Exercise 5,6,7 | Class 10 Computer Science Chapter 3"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "xSFUReY4NiY",
+          "title": "Programming Exercise 1, 2, 3, 4",
+          "subtitle": "",
+          "duration": "22:46",
+          "url": "https://www.youtube.com/watch?v=xSFUReY4NiY&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/xSFUReY4NiY/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 Programming Exercise 1,2,3,4 | Class 10 Computer Science Chapter 3"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "SA4lnCAW_Is",
+          "title": "Exercise Question 4 & 5",
+          "subtitle": "",
+          "duration": "25:02",
+          "url": "https://www.youtube.com/watch?v=SA4lnCAW_Is&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/SA4lnCAW_Is/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | Exercise Question 4 & 5 | Class 10 Computer Science Chapter 3"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "oZEaOD5Xnzg",
+          "title": "Exercise Q1, Q2 & Q2",
+          "subtitle": "",
+          "duration": "19:19",
+          "url": "https://www.youtube.com/watch?v=oZEaOD5Xnzg&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/oZEaOD5Xnzg/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | Exercise Q1, Q2  & Q2 | Class 10 Computer Science Chapter 3"
+        },
+        {
+          "order": 5,
+          "playlistIndex": 5,
+          "videoId": "IzlBKDGrOgw",
+          "title": "Activities and General Information",
+          "subtitle": "",
+          "duration": "20:13",
+          "url": "https://www.youtube.com/watch?v=IzlBKDGrOgw&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/IzlBKDGrOgw/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 |   Activites and General Information | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 6,
+          "playlistIndex": 6,
+          "videoId": "db8i4-dejUk",
+          "title": "Program 3.5 & 3.6",
+          "subtitle": "",
+          "duration": "28:07",
+          "url": "https://www.youtube.com/watch?v=db8i4-dejUk&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/db8i4-dejUk/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 |  Program 3.5 & 3.6 | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 7,
+          "playlistIndex": 7,
+          "videoId": "T3eW26a6KKk",
+          "title": "Use of Nested Selection Structure",
+          "subtitle": "",
+          "duration": "28:12",
+          "url": "https://www.youtube.com/watch?v=T3eW26a6KKk&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/T3eW26a6KKk/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | Use of Nested Selection Structure | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 8,
+          "playlistIndex": 8,
+          "videoId": "3rx4FXH50qc",
+          "title": "Nested Selection Structure",
+          "subtitle": "",
+          "duration": "8:48",
+          "url": "https://www.youtube.com/watch?v=3rx4FXH50qc&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/3rx4FXH50qc/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | Nested Selection Structure | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 9,
+          "playlistIndex": 9,
+          "videoId": "-_8efbx3pHQ",
+          "title": "Use of IF ELSE Statement",
+          "subtitle": "",
+          "duration": "15:31",
+          "url": "https://www.youtube.com/watch?v=-_8efbx3pHQ&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/-_8efbx3pHQ/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | Use of IF ELSE Statement | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 10,
+          "playlistIndex": 10,
+          "videoId": "yGRXd15VsKU",
+          "title": "IF ELSE Statement",
+          "subtitle": "",
+          "duration": "18:41",
+          "url": "https://www.youtube.com/watch?v=yGRXd15VsKU&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/yGRXd15VsKU/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | IF ELSE Statement | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 11,
+          "playlistIndex": 11,
+          "videoId": "ooSNUl-gUCs",
+          "title": "IF Statement Program 3.1 & 3.2",
+          "subtitle": "",
+          "duration": "20:52",
+          "url": "https://www.youtube.com/watch?v=ooSNUl-gUCs&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/ooSNUl-gUCs/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | IF Statement  Program 3.1 & 3.2 | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 12,
+          "playlistIndex": 12,
+          "videoId": "Rd93l_1KluQ",
+          "title": "Selection Statement",
+          "subtitle": "",
+          "duration": "14:58",
+          "url": "https://www.youtube.com/watch?v=Rd93l_1KluQ&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/Rd93l_1KluQ/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | Selection Statement | Class 10 Computer Chapter 3"
+        },
+        {
+          "order": 13,
+          "playlistIndex": 13,
+          "videoId": "_-zTU-8Nt_E",
+          "title": "Control Statement",
+          "subtitle": "",
+          "duration": "7:05",
+          "url": "https://www.youtube.com/watch?v=_-zTU-8Nt_E&list=PLI-NxcTUPiPzFx6ZDSgJ8-InXeAaoDLfO",
+          "thumb": "https://i.ytimg.com/vi/_-zTU-8Nt_E/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 3 | Control Statement | Class 10 Computer Chapter 3"
+        }
+      ],
+      "videoCount": 13
+    },
+    {
+      "id": "ch4",
+      "number": 4,
+      "title": "Chapter 4",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "_sgRxBbXduM",
+          "title": "Programming Exercise 4, 5, 6",
+          "subtitle": "",
+          "duration": "18:28",
+          "url": "https://www.youtube.com/watch?v=_sgRxBbXduM&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/_sgRxBbXduM/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 4 Programming Exercise 4,5,6 | Class 10 Computer Science Ch 4"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "wGd-0knMYfU",
+          "title": "Exercise Question 5",
+          "subtitle": "",
+          "duration": "18:38",
+          "url": "https://www.youtube.com/watch?v=wGd-0knMYfU&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/wGd-0knMYfU/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 4 Exercise Question 5 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "aGTArbGVhaw",
+          "title": "Programming Exercise 1, 2, 3",
+          "subtitle": "",
+          "duration": "10:15",
+          "url": "https://www.youtube.com/watch?v=aGTArbGVhaw&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/aGTArbGVhaw/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 4 Programming Exercise 1,2,3 | Class 10 Computer Science Ch 4"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "sE3t-2RSzMg",
+          "title": "Exercise Question 3 & 4",
+          "subtitle": "",
+          "duration": "8:16",
+          "url": "https://www.youtube.com/watch?v=sE3t-2RSzMg&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/sE3t-2RSzMg/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 4 Exercise Question 3 & 4 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 5,
+          "playlistIndex": 5,
+          "videoId": "rA9QQ1YHS9I",
+          "title": "Exercise Question 1 & 2",
+          "subtitle": "",
+          "duration": "9:58",
+          "url": "https://www.youtube.com/watch?v=rA9QQ1YHS9I&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/rA9QQ1YHS9I/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 4 Exercise Question 1 & 2 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 6,
+          "playlistIndex": 6,
+          "videoId": "T71Up87_G6M",
+          "title": "Activity 4.3",
+          "subtitle": "",
+          "duration": "6:36",
+          "url": "https://www.youtube.com/watch?v=T71Up87_G6M&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/T71Up87_G6M/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 4 Activity 4.3 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 7,
+          "playlistIndex": 7,
+          "videoId": "FGGj6lEshE4",
+          "title": "Program 4.11 & 4.12",
+          "subtitle": "",
+          "duration": "11:24",
+          "url": "https://www.youtube.com/watch?v=FGGj6lEshE4&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/FGGj6lEshE4/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Program 4.11 & 4.12 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 8,
+          "playlistIndex": 8,
+          "videoId": "_BkD4-Mixcg",
+          "title": "Loops and Arrays",
+          "subtitle": "",
+          "duration": "9:15",
+          "url": "https://www.youtube.com/watch?v=_BkD4-Mixcg&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/_BkD4-Mixcg/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Loops and Arrays | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 9,
+          "playlistIndex": 9,
+          "videoId": "Sr-mLVKKLY0",
+          "title": "Program 4.9 & 4.10",
+          "subtitle": "",
+          "duration": "19:19",
+          "url": "https://www.youtube.com/watch?v=Sr-mLVKKLY0&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/Sr-mLVKKLY0/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4  Program 4.9 & 4.10 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 10,
+          "playlistIndex": 10,
+          "videoId": "iFjVZ026em0",
+          "title": "Program 4 7 & 4 8",
+          "subtitle": "",
+          "duration": "20:14",
+          "url": "https://www.youtube.com/watch?v=iFjVZ026em0&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/iFjVZ026em0/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Program 4 7 & 4 8 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 11,
+          "playlistIndex": 11,
+          "videoId": "LuYsbaC0jf0",
+          "title": "Program 4 6 & Activity 4 2",
+          "subtitle": "",
+          "duration": "16:02",
+          "url": "https://www.youtube.com/watch?v=LuYsbaC0jf0&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/LuYsbaC0jf0/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Program 4 6 & Activity 4 2 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 12,
+          "playlistIndex": 12,
+          "videoId": "2VaZUFTB9vw",
+          "title": "Nested Loop & Program 4 5",
+          "subtitle": "",
+          "duration": "15:27",
+          "url": "https://www.youtube.com/watch?v=2VaZUFTB9vw&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/2VaZUFTB9vw/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Nested Loop & Program 4 5 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 13,
+          "playlistIndex": 13,
+          "videoId": "Z5TQD62ZMLw",
+          "title": "Program 4.4",
+          "subtitle": "",
+          "duration": "15:26",
+          "url": "https://www.youtube.com/watch?v=Z5TQD62ZMLw&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/Z5TQD62ZMLw/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Program 4.4 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 14,
+          "playlistIndex": 14,
+          "videoId": "CIQdFk6Cils",
+          "title": "Activity 4.1",
+          "subtitle": "",
+          "duration": "12:17",
+          "url": "https://www.youtube.com/watch?v=CIQdFk6Cils&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/CIQdFk6Cils/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Activity 4.1 | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 15,
+          "playlistIndex": 15,
+          "videoId": "q_AnhJUXDOI",
+          "title": "Loop Structure",
+          "subtitle": "",
+          "duration": "16:25",
+          "url": "https://www.youtube.com/watch?v=q_AnhJUXDOI&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/q_AnhJUXDOI/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Loop Structure | Class 10 Computer Science Chapter 4"
+        },
+        {
+          "order": 16,
+          "playlistIndex": 16,
+          "videoId": "Xthjm_v0AqY",
+          "title": "Accessing Array Elements using array as indexs",
+          "subtitle": "",
+          "duration": "18:54",
+          "url": "https://www.youtube.com/watch?v=Xthjm_v0AqY&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/Xthjm_v0AqY/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Accessing Array Elements using array as indexs"
+        },
+        {
+          "order": 17,
+          "playlistIndex": 17,
+          "videoId": "IZWytWudq5E",
+          "title": "Array Declaration & Initialization",
+          "subtitle": "",
+          "duration": "11:05",
+          "url": "https://www.youtube.com/watch?v=IZWytWudq5E&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/IZWytWudq5E/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Array Declaration & Initialization | Class 10 Computer Science Ch 4"
+        },
+        {
+          "order": 18,
+          "playlistIndex": 18,
+          "videoId": "gZS7SSXQPZ4",
+          "title": "Data Structure and Array",
+          "subtitle": "",
+          "duration": "10:22",
+          "url": "https://www.youtube.com/watch?v=gZS7SSXQPZ4&list=PLI-NxcTUPiPyV0blbt4lLyVNv5NIg06hN",
+          "thumb": "https://i.ytimg.com/vi/gZS7SSXQPZ4/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 4 Data Structure and Array | Class 10 Computer Science Chapter 4"
+        }
+      ],
+      "videoCount": 18
+    },
+    {
+      "id": "ch5",
+      "number": 5,
+      "title": "Chapter 5",
+      "videos": [
+        {
+          "order": 1,
+          "playlistIndex": 1,
+          "videoId": "_DW9mgdPiMA",
+          "title": "Programming Exercise 5, 6 and 7",
+          "subtitle": "",
+          "duration": "18:59",
+          "url": "https://www.youtube.com/watch?v=_DW9mgdPiMA&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/_DW9mgdPiMA/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Programming Exercise 5,6 and 7 | Class 10 Computer Science"
+        },
+        {
+          "order": 2,
+          "playlistIndex": 2,
+          "videoId": "bMJilEeGxug",
+          "title": "Programming Exercise 1, 2, 3 and 4",
+          "subtitle": "",
+          "duration": "21:40",
+          "url": "https://www.youtube.com/watch?v=bMJilEeGxug&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/bMJilEeGxug/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Programming Exercise 1,2,3 and 4 | Class 10 Computer Science"
+        },
+        {
+          "order": 3,
+          "playlistIndex": 3,
+          "videoId": "eiUU-z-7RG4",
+          "title": "Exercise Question 4 and 5",
+          "subtitle": "",
+          "duration": "11:57",
+          "url": "https://www.youtube.com/watch?v=eiUU-z-7RG4&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/eiUU-z-7RG4/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Exercise Question 4 and 5 | Class 10 Computer Science Ch 5"
+        },
+        {
+          "order": 4,
+          "playlistIndex": 4,
+          "videoId": "JTvxsjJTyVM",
+          "title": "Exercise Question 1, 2, 3",
+          "subtitle": "",
+          "duration": "7:45",
+          "url": "https://www.youtube.com/watch?v=JTvxsjJTyVM&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/JTvxsjJTyVM/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Exercise Question 1,2,3 | Class 10 Computer Science Ch 5"
+        },
+        {
+          "order": 5,
+          "playlistIndex": 5,
+          "videoId": "rATuOYOXw9Q",
+          "title": "Programming Time 5.1 and 5.2",
+          "subtitle": "10th",
+          "duration": "15:59",
+          "url": "https://www.youtube.com/watch?v=rATuOYOXw9Q&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/rATuOYOXw9Q/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Programming Time 5.1 and 5.2 | 10th Computer Science Ch 5"
+        },
+        {
+          "order": 6,
+          "playlistIndex": 6,
+          "videoId": "enrUL-RwkJs",
+          "title": "Using a Funcation Example 5.3 to 5.5",
+          "subtitle": "10th Computer",
+          "duration": "14:37",
+          "url": "https://www.youtube.com/watch?v=enrUL-RwkJs&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/enrUL-RwkJs/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Using a Funcation Example 5.3 to 5.5 | 10th Computer Ch 5"
+        },
+        {
+          "order": 7,
+          "playlistIndex": 7,
+          "videoId": "zh8sPAp3CQc",
+          "title": "Defining a Funcation Example 5.1 and 5.2",
+          "subtitle": "10th Computer",
+          "duration": "11:24",
+          "url": "https://www.youtube.com/watch?v=zh8sPAp3CQc&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/zh8sPAp3CQc/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Ch 5 | Defining a Funcation Example 5.1 and 5.2 | 10th Computer Ch 5"
+        },
+        {
+          "order": 8,
+          "playlistIndex": 8,
+          "videoId": "zkvblKENbn4",
+          "title": "Signature of a Function",
+          "subtitle": "",
+          "duration": "10:01",
+          "url": "https://www.youtube.com/watch?v=zkvblKENbn4&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/zkvblKENbn4/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Signature of a Function | Class 10 Computer Science Ch 5"
+        },
+        {
+          "order": 9,
+          "playlistIndex": 9,
+          "videoId": "rut6j9CNOoA",
+          "title": "Advantages of Function",
+          "subtitle": "",
+          "duration": "9:31",
+          "url": "https://www.youtube.com/watch?v=rut6j9CNOoA&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/rut6j9CNOoA/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Advantages of Function | Class 10 Computer Science Ch 5"
+        },
+        {
+          "order": 10,
+          "playlistIndex": 10,
+          "videoId": "yvcDPLhqFhE",
+          "title": "Functions and Its Types",
+          "subtitle": "",
+          "duration": "7:55",
+          "url": "https://www.youtube.com/watch?v=yvcDPLhqFhE&list=PLI-NxcTUPiPzm3V09MLGQG0yEhfhlm-BS",
+          "thumb": "https://i.ytimg.com/vi/yvcDPLhqFhE/hqdefault.jpg",
+          "originalTitle": "10th Class Computer Science Chapter 5 | Functions and Its Types | Class 10 Computer Science Ch 5"
+        }
+      ],
+      "videoCount": 10
+    }
+  ]
+}
