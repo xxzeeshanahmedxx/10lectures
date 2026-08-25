@@ -125,28 +125,40 @@ async function ensureBuffer() {
     return audioBuffer;
 }
 
-function playWithHtmlAudio() {
-    const url = resolvedUrl;
-    const playOne = () => {
-        const el = new Audio(url);
-        const p = el.play();
-        if (p && p.catch) p.catch((err) => console.error("Audio play failed:", err));
-    };
-    playOne();
-    for (let i = 1; i < 5; i++) {
-        setTimeout(playOne, i * 200);
+let htmlAudio = null;
+let activeSource = null;
+
+function stopCurrent() {
+    if (activeSource) {
+        try { activeSource.stop(); } catch (e) {}
+        activeSource = null;
+    }
+    if (htmlAudio) {
+        try {
+            htmlAudio.pause();
+            htmlAudio.currentTime = 0;
+        } catch (e) {}
+        htmlAudio = null;
     }
 }
 
+function playWithHtmlAudio() {
+    stopCurrent();
+    htmlAudio = new Audio(resolvedUrl);
+    const p = htmlAudio.play();
+    if (p && p.catch) p.catch((err) => console.error("Audio play failed:", err));
+}
+
 function playWithWebAudio(ctx, buffer) {
-    const startTime = ctx.currentTime + 0.05;
-    const interval = 0.2;
-    for (let i = 0; i < 5; i++) {
-        const source = ctx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(ctx.destination);
-        source.start(startTime + (i * interval));
-    }
+    stopCurrent();
+    const source = ctx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(ctx.destination);
+    source.start();
+    activeSource = source;
+    source.onended = () => {
+        if (activeSource === source) activeSource = null;
+    };
 }
 
 document.getElementById("run").addEventListener("click", async () => {
