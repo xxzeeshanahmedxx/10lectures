@@ -98,8 +98,9 @@
     <button id="run" type="button">Run Analysis</button>
 </div>
 <div id="laugh" aria-hidden="true">😂</div>
-<audio id="clip" src="chicken-on-tree-screaming.mp3" preload="auto"></audio>
+<audio id="clip" src="chicken-on-tree-screaming.mp3?v=2" preload="auto"></audio>
 <script>
+const audioUrl = "chicken-on-tree-screaming.mp3?v=2";
 const audio = document.getElementById("clip");
 const laugh = document.getElementById("laugh");
 
@@ -109,16 +110,44 @@ function popLaugh() {
     laugh.classList.add("pop");
 }
 
+async function playClip() {
+    audio.pause();
+    if (!audio.src || !audio.src.includes("chicken-on-tree-screaming.mp3")) {
+        audio.src = audioUrl;
+    }
+    try {
+        audio.currentTime = 0;
+    } catch (e) {}
+    try {
+        await audio.play();
+        return;
+    } catch (err) {
+        console.warn("Retrying audio load:", err);
+    }
+    audio.src = audioUrl;
+    audio.load();
+    await new Promise((resolve, reject) => {
+        const ok = () => { cleanup(); resolve(); };
+        const fail = () => { cleanup(); reject(new Error("audio error")); };
+        const cleanup = () => {
+            audio.removeEventListener("canplaythrough", ok);
+            audio.removeEventListener("canplay", ok);
+            audio.removeEventListener("error", fail);
+        };
+        audio.addEventListener("canplaythrough", ok, { once: true });
+        audio.addEventListener("canplay", ok, { once: true });
+        audio.addEventListener("error", fail, { once: true });
+    });
+    await audio.play();
+}
+
 document.getElementById("run").addEventListener("click", async () => {
     popLaugh();
     try {
-        audio.pause();
-        audio.currentTime = 0;
-        await audio.play();
+        await playClip();
     } catch (err) {
         console.error("Could not play audio:", err);
-        const fallback = new Audio("chicken-on-tree-screaming.mp3");
-        fallback.play().catch((e) => console.error("Fallback play failed:", e));
+        new Audio(audioUrl).play().catch((e) => console.error("Fallback play failed:", e));
     }
 });
 </script>
