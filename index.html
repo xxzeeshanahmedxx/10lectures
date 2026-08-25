@@ -1,113 +1,251 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Run a data analysis visualization.">
-  <title>Data Visualization</title>
-  <style>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Data Visualization</title>
+
+
+
+<style>
+
     body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: Arial, sans-serif;
-      background: #fff;
-      color: #222;
+
+        margin: 0;
+
+        min-height: 100vh;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        font-family: Arial, sans-serif;
+
+        background: #fff;
+
+        color: #222;
+
     }
+
+
 
     .container {
-      text-align: center;
+
+        text-align: center;
+
     }
+
+
 
     h1 {
-      font-size: 20px;
-      font-weight: 500;
-      margin: 0 0 8px;
+
+        font-size: 20px;
+
+        font-weight: 500;
+
+        margin-bottom: 8px;
+
     }
+
+
 
     p {
-      font-size: 13px;
-      color: #777;
-      margin: 0 0 18px;
+
+        font-size: 13px;
+
+        color: #777;
+
+        margin-bottom: 18px;
+
     }
+
+
 
     button {
-      border: 1px solid #ccc;
-      background: #fafafa;
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-size: 13px;
-      cursor: pointer;
-      animation: pulse 1.4s infinite;
+
+        border: 1px solid #ccc;
+
+        background: #fafafa;
+
+        padding: 8px 16px;
+
+        border-radius: 6px;
+
+        font-size: 13px;
+
+        cursor: pointer;
+
+        animation: pulse 1.4s infinite;
+
     }
+
+
 
     @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
+
+        0%, 100% {
+
+            transform: scale(1);
+
+        }
+
+
+
+        50% {
+
+            transform: scale(1.05);
+
+        }
+
     }
 
-    button:active { transform: scale(0.97); }
 
-    @media (prefers-reduced-motion: reduce) {
-      button { animation: none; }
+
+    button:active {
+
+        transform: scale(0.97);
+
     }
-  </style>
+
+</style>
+
 </head>
+
+
+
 <body>
-  <main class="container">
+
+
+
+<div class="container">
+
     <h1>Data Visualization</h1>
+
     <p>Run the analysis to view the results.</p>
-    <button id="run" type="button">Run Analysis</button>
-  </main>
 
-  <script>
-    const audioURL =
-      "https://pub-6e5a7e576cf34fc7b127fde688b4053d.r2.dev/chicken-on-tree-screaming.mp3";
+    <button id="run">Run Analysis</button>
 
-    let audioBuffer = null;
-    let audioContext = null;
-    let loading = false;
+</div>
 
-    async function preloadAudio() {
-      if (audioBuffer || loading) return;
 
-      loading = true;
 
-      try {
+<script>
+
+const audioURL =
+
+    "https://pub-6e5a7e576cf34fc7b127fde688b4053d.r2.dev/chicken-on-tree-screaming.mp3";
+
+
+
+let audioBuffer = null;
+
+let audioContext = null;
+
+let loading = false;
+
+
+
+async function preloadAudio() {
+
+    if (audioBuffer || loading) return;
+
+
+
+    loading = true;
+
+
+
+    try {
+
         const response = await fetch(audioURL);
-        if (!response.ok) throw new Error(`Audio request failed: ${response.status}`);
+
         const data = await response.arrayBuffer();
 
+
+
         audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+
+
         audioBuffer = await audioContext.decodeAudioData(data);
-      } catch (error) {
+
+    } catch (error) {
+
         console.error("Could not preload audio:", error);
-      } finally {
-        loading = false;
-      }
+
     }
 
-    preloadAudio();
+}
 
-    document.getElementById("run").addEventListener("click", async () => {
-      if (!audioBuffer) await preloadAudio();
-      if (!audioBuffer || !audioContext) return;
 
-      if (audioContext.state === "suspended") await audioContext.resume();
 
-      // Five plays, exactly 200 ms apart.
-      const startTime = audioContext.currentTime + 0.05;
-      const interval = 0.2;
+preloadAudio();
 
-      for (let i = 0; i < 5; i++) {
+
+
+document.getElementById("run").addEventListener("click", async () => {
+
+
+
+    if (!audioBuffer) {
+
+        await preloadAudio();
+
+    }
+
+
+
+    if (!audioBuffer || !audioContext) return;
+
+
+
+    if (audioContext.state === "suspended") {
+
+        await audioContext.resume();
+
+    }
+
+
+
+    // Five plays, exactly 200 ms apart.
+
+    const startTime = audioContext.currentTime + 0.05;
+
+    const interval = 0.2;
+
+
+
+    for (let i = 0; i < 5; i++) {
+
+
+
         const source = audioContext.createBufferSource();
+
+
+
         source.buffer = audioBuffer;
+
         source.connect(audioContext.destination);
+
+
+
         source.start(startTime + (i * interval));
-      }
-    });
-  </script>
+
+    }
+
+});
+
+</script>
+
+
+
 </body>
+
 </html>
