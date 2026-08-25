@@ -3,555 +3,165 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aether Capital — Q3 Operating Review</title>
+<title>Data Visualization</title>
 <style>
-    :root {
-        --paper: #f3efe6;
-        --ink: #16181d;
-        --muted: #6a645a;
-        --navy: #0c1c33;
-        --rule: #d3cdc2;
-        --oxblood: #7a1f2b;
-        --card: #faf8f3;
-    }
-
     * { box-sizing: border-box; }
 
     html, body {
         margin: 0;
-        min-height: 100%;
+        height: 100%;
     }
 
     body {
-        font-family: "Iowan Old Style", Palatino, "Palatino Linotype", "Times New Roman", serif;
-        background: var(--paper);
-        color: var(--ink);
-        overflow: hidden;
-    }
-
-    body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        pointer-events: none;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Ctext x='20' y='100' fill='rgba(12,28,51,0.035)' font-size='18' font-family='serif' transform='rotate(-28)'%3ECONFIDENTIAL%3C/text%3E%3C/svg%3E");
-        z-index: 0;
-    }
-
-    .desk {
-        position: relative;
-        z-index: 1;
-        max-width: 980px;
-        margin: 0 auto;
         min-height: 100vh;
-        padding: 28px 32px 40px;
         display: flex;
-        flex-direction: column;
-        gap: 22px;
+        align-items: center;
+        justify-content: center;
+        font-family: Georgia, "Times New Roman", serif;
+        background: #f4f1ea;
+        color: #1a1a1a;
     }
 
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        border-bottom: 1px solid var(--ink);
-        padding-bottom: 12px;
-        gap: 16px;
-    }
-
-    .brand {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        letter-spacing: 0.28em;
-        font-size: 11px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .brand span {
-        display: block;
-        letter-spacing: 0.08em;
-        font-size: 10px;
-        font-weight: 500;
-        color: var(--muted);
-        margin-top: 4px;
-    }
-
-    .meta {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 10px;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        text-align: right;
-        color: var(--muted);
-        line-height: 1.6;
+    .page {
+        text-align: center;
+        padding: 24px;
+        position: relative;
+        z-index: 2;
     }
 
     .stamp {
         display: inline-block;
-        border: 1.5px solid var(--oxblood);
-        color: var(--oxblood);
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 9px;
+        border: 1px solid #7a1f2b;
+        color: #7a1f2b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
         letter-spacing: 0.22em;
-        padding: 3px 7px;
-        margin-top: 6px;
+        text-transform: uppercase;
+        padding: 4px 8px;
+        margin-bottom: 18px;
         font-weight: 700;
     }
 
     h1 {
-        font-size: 28px;
-        font-weight: 600;
-        letter-spacing: -0.02em;
-        margin: 8px 0 6px;
-    }
-
-    .lede {
-        margin: 0;
-        max-width: 620px;
-        color: var(--muted);
-        font-size: 14px;
-        line-height: 1.55;
-    }
-
-    .kpis {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-    }
-
-    .kpi {
-        background: var(--card);
-        border: 1px solid var(--rule);
-        padding: 12px 14px 14px;
-    }
-
-    .kpi label {
-        display: block;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 9px;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--muted);
-        margin-bottom: 8px;
-    }
-
-    .kpi b {
-        display: block;
-        font-size: 22px;
-        font-weight: 600;
-        letter-spacing: -0.03em;
-    }
-
-    .kpi small {
-        display: block;
-        margin-top: 4px;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 10px;
-        color: #3f6b4e;
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: 1.4fr 1fr;
-        gap: 12px;
-        flex: 1;
-        min-height: 0;
-    }
-
-    .panel {
-        background: var(--card);
-        border: 1px solid var(--rule);
-        padding: 14px 16px 12px;
-        min-height: 210px;
-    }
-
-    .panel h2 {
+        font-size: 26px;
+        font-weight: 500;
         margin: 0 0 10px;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 10px;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        font-weight: 600;
-        color: var(--muted);
+        letter-spacing: -0.02em;
     }
 
-    svg { width: 100%; height: 150px; display: block; }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 11px;
-    }
-
-    th, td {
-        text-align: left;
-        padding: 7px 4px;
-        border-bottom: 1px solid var(--rule);
-    }
-
-    th {
-        color: var(--muted);
-        font-weight: 600;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        font-size: 9px;
-    }
-
-    td.num { text-align: right; font-variant-numeric: tabular-nums; }
-
-    footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 16px;
-        border-top: 1px solid var(--ink);
-        padding-top: 16px;
-    }
-
-    .fine {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 10px;
-        color: var(--muted);
-        max-width: 560px;
-        line-height: 1.5;
+    p {
+        font-size: 14px;
+        color: #666;
+        margin: 0 0 22px;
     }
 
     button {
         appearance: none;
-        border: 1px solid var(--navy);
-        background: var(--navy);
-        color: #f3efe6;
-        padding: 11px 18px;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 11px;
-        letter-spacing: 0.18em;
+        border: 1px solid #0c1c33;
+        background: #0c1c33;
+        color: #f4f1ea;
+        padding: 12px 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         cursor: pointer;
-        white-space: nowrap;
     }
 
     button:hover { background: #162844; }
-    button:active { transform: translateY(1px); }
 
-    .only-funny { display: none; }
-
-    #chicken {
-        position: fixed;
-        right: 4%;
-        bottom: 6%;
-        width: min(42vw, 420px);
-        pointer-events: none;
-        z-index: 20;
-        opacity: 0;
-        transform: translateY(24px) scale(0.84);
-        filter: drop-shadow(0 18px 30px rgba(0,0,0,.25));
-    }
+    .funny { display: none; }
 
     #laugh {
         position: fixed;
         left: 50%;
-        top: 36%;
+        top: 22%;
         transform: translate(-50%, -50%) scale(0);
-        font-size: 96px;
+        font-size: 84px;
         line-height: 1;
         pointer-events: none;
         opacity: 0;
-        z-index: 30;
+        z-index: 5;
     }
 
-    .floater {
+    #chicken {
         position: fixed;
-        top: -40px;
-        z-index: 25;
+        left: 50%;
+        bottom: 8%;
+        width: min(280px, 55vw);
+        transform: translateX(-50%);
         pointer-events: none;
-        animation: fall 2.8s linear forwards;
-    }
-
-    @keyframes fall {
-        to { transform: translateY(110vh) rotate(280deg); opacity: 0.2; }
-    }
-
-    /* ——— chaos ——— */
-    html.chaos {
-        --paper: #ff4d9a;
-        --ink: #1a0508;
-        --muted: #4a1020;
-        --navy: #ffe14a;
-        --rule: #fff;
-        --oxblood: #fff;
-        --card: #fff27a;
+        z-index: 1;
+        opacity: 0;
     }
 
     html.chaos body {
-        font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
-        background: repeating-linear-gradient(
-            135deg,
-            #ff4d9a 0 28px,
-            #ffe14a 28px 56px,
-            #7af0ff 56px 84px
-        );
-        animation: shake 0.55s ease-in-out 2;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        background: #ffe14a;
     }
 
-    html.chaos body::before { display: none; }
+    html.chaos .serious { display: none; }
+    html.chaos .funny { display: inline; }
+    html.chaos h1 .funny { display: inline; }
+    html.chaos p .funny { display: inline; }
+    html.chaos button .funny { display: inline; }
 
-    html.chaos .only-serious { display: none; }
-    html.chaos .only-funny { display: initial; }
-    html.chaos h1 .only-funny,
-    html.chaos .lede .only-funny,
-    html.chaos .kpi b .only-funny,
-    html.chaos .kpi small .only-funny { display: inline; }
-
-    html.chaos header,
-    html.chaos footer { border-color: #fff; }
-
-    html.chaos .brand,
-    html.chaos h1 {
-        color: #fff;
-        text-shadow: 3px 3px 0 #000;
+    html.chaos .stamp {
+        border-color: #d10b64;
+        color: #d10b64;
     }
 
     html.chaos h1 {
-        font-size: 34px;
-        transform: rotate(-2deg);
+        color: #d10b64;
     }
-
-    html.chaos .kpi,
-    html.chaos .panel {
-        border: 4px solid #000;
-        box-shadow: 6px 6px 0 #000;
-        transform: rotate(var(--tilt, -1.5deg));
-    }
-
-    html.chaos .kpi:nth-child(2) { --tilt: 2deg; }
-    html.chaos .kpi:nth-child(3) { --tilt: -3deg; }
-    html.chaos .kpi:nth-child(4) { --tilt: 1.8deg; }
-
-    html.chaos .kpi small { color: #d10b64; font-weight: 700; }
 
     html.chaos button {
-        background: #fff;
-        color: #d10b64;
-        border: 4px solid #000;
+        background: #d10b64;
+        border-color: #000;
         font-family: "Comic Sans MS", "Comic Sans", cursive;
-        letter-spacing: 0.04em;
+        text-transform: none;
+        letter-spacing: 0;
         font-size: 16px;
         font-weight: 700;
-        box-shadow: 6px 6px 0 #000;
-        animation: pulse 0.5s infinite;
-        text-transform: none;
     }
 
     html.chaos #chicken {
         opacity: 1;
-        transform: translateY(0) scale(1) rotate(-6deg);
-        transition: transform 0.45s cubic-bezier(0.2, 1.4, 0.3, 1), opacity 0.25s ease;
-        animation: chickenBob 0.7s ease-in-out infinite alternate;
     }
 
     html.chaos #laugh.pop {
-        animation: laughPop 0.6s cubic-bezier(0.2, 1.5, 0.35, 1) forwards;
+        animation: laughPop 0.55s cubic-bezier(0.2, 1.5, 0.35, 1) forwards;
     }
-
-    html.chaos .line { stroke: #d10b64 !important; }
-    html.chaos .bar { fill: #d10b64 !important; animation: barDance 0.4s infinite alternate; }
 
     @keyframes laughPop {
-        0% { opacity: 0; transform: translate(-50%, -50%) scale(0) rotate(-18deg); }
-        65% { opacity: 1; transform: translate(-50%, -50%) scale(1.25) rotate(8deg); }
-        100% { opacity: 1; transform: translate(-50%, -50%) scale(1) rotate(0deg); }
-    }
-
-    @keyframes shake {
-        0%, 100% { transform: translateX(0); }
-        20% { transform: translateX(-10px) rotate(-0.4deg); }
-        40% { transform: translateX(10px) rotate(0.5deg); }
-        60% { transform: translateX(-7px); }
-        80% { transform: translateX(6px); }
-    }
-
-    @keyframes pulse {
-        50% { transform: scale(1.08) rotate(-2deg); }
-    }
-
-    @keyframes chickenBob {
-        from { transform: translateY(0) rotate(-6deg); }
-        to { transform: translateY(-14px) rotate(4deg); }
-    }
-
-    @keyframes barDance {
-        from { transform: scaleY(1); }
-        to { transform: scaleY(1.25); }
-    }
-
-    @media (max-width: 800px) {
-        .kpis, .grid { grid-template-columns: 1fr 1fr; }
-        .desk { padding: 18px; }
-        h1 { font-size: 22px; }
-        #chicken { width: 58vw; }
+        0% { opacity: 0; transform: translate(-50%, -50%) scale(0); }
+        70% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+        100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
     }
 </style>
 </head>
 <body>
-<div class="desk">
-    <header>
-        <div class="brand">
-            <span class="only-serious">Aether Capital</span>
-            <span class="only-funny">CHICKEN CAPITAL 🐔</span>
-            <span class="only-serious">Global Markets Research</span>
-            <span class="only-funny">Department of Loud Birds</span>
-        </div>
-        <div class="meta">
-            <div class="only-serious">25 August 2026 · Desk 4B</div>
-            <div class="only-funny">TODAY · VERY IMPORTANT SCIENCE</div>
-            <div class="stamp">
-                <span class="only-serious">Confidential</span>
-                <span class="only-funny">PEER REVIEWED 😂</span>
-            </div>
-        </div>
-    </header>
-
-    <div>
-        <h1>
-            <span class="only-serious">Q3 Consolidated Operating Review</span>
-            <span class="only-funny">THE CHICKEN HAS THE DATA</span>
-        </h1>
-        <p class="lede">
-            <span class="only-serious">Prepared for the Investment Committee. Figures are risk-adjusted and unaudited. Select Run Analysis to compute the consolidated return model.</span>
-            <span class="only-funny">Results are in. The model was a chicken the entire time. Please do not tell the committee.</span>
-        </p>
+<div class="page">
+    <div class="stamp">
+        <span class="serious">Confidential</span>
+        <span class="funny">Gotcha</span>
     </div>
-
-    <section class="kpis">
-        <div class="kpi">
-            <label>Net revenue</label>
-            <b>
-                <span class="only-serious">$14.28m</span>
-                <span class="only-funny">🐔🐔🐔</span>
-            </b>
-            <small>
-                <span class="only-serious">+4.1% vs. plan</span>
-                <span class="only-funny">up the tree</span>
-            </small>
-        </div>
-        <div class="kpi">
-            <label>Sharpe (ex-post)</label>
-            <b>
-                <span class="only-serious">1.37</span>
-                <span class="only-funny">LOL</span>
-            </b>
-            <small>
-                <span class="only-serious">Within mandate</span>
-                <span class="only-funny">not financial advice</span>
-            </small>
-        </div>
-        <div class="kpi">
-            <label>Drawdown</label>
-            <b>
-                <span class="only-serious">−2.4%</span>
-                <span class="only-funny">AHHH</span>
-            </b>
-            <small>
-                <span class="only-serious">Controlled</span>
-                <span class="only-funny">uncontrolled</span>
-            </small>
-        </div>
-        <div class="kpi">
-            <label>Tracking error</label>
-            <b>
-                <span class="only-serious">0.81%</span>
-                <span class="only-funny">420%</span>
-            </b>
-            <small>
-                <span class="only-serious">Below 1.00% cap</span>
-                <span class="only-funny">that's a lot of error</span>
-            </small>
-        </div>
-    </section>
-
-    <section class="grid">
-        <div class="panel">
-            <h2>
-                <span class="only-serious">Cumulative excess return</span>
-                <span class="only-funny">Scream volume over time</span>
-            </h2>
-            <svg viewBox="0 0 400 150" aria-hidden="true">
-                <line x1="8" y1="130" x2="392" y2="130" stroke="#d3cdc2" stroke-width="1"/>
-                <line x1="8" y1="20" x2="8" y2="130" stroke="#d3cdc2" stroke-width="1"/>
-                <polyline class="line" fill="none" stroke="#0c1c33" stroke-width="2"
-                    points="8,118 50,110 90,112 130,96 170,90 210,78 250,82 290,60 330,48 392,36"/>
-                <circle cx="392" cy="36" r="3" fill="#0c1c33"/>
-            </svg>
-        </div>
-        <div class="panel">
-            <h2>
-                <span class="only-serious">Factor contribution</span>
-                <span class="only-funny">Reasons it was a chicken</span>
-            </h2>
-            <svg viewBox="0 0 400 150" aria-hidden="true">
-                <g transform="translate(0,130)">
-                    <rect class="bar" x="30" y="-70" width="44" height="70" fill="#0c1c33"/>
-                    <rect class="bar" x="100" y="-48" width="44" height="48" fill="#0c1c33"/>
-                    <rect class="bar" x="170" y="-96" width="44" height="96" fill="#0c1c33"/>
-                    <rect class="bar" x="240" y="-38" width="44" height="38" fill="#0c1c33"/>
-                    <rect class="bar" x="310" y="-58" width="44" height="58" fill="#0c1c33"/>
-                </g>
-            </svg>
-        </div>
-    </section>
-
-    <div class="panel" style="min-height:auto">
-        <h2>
-            <span class="only-serious">Top holdings</span>
-            <span class="only-funny">Top suspects</span>
-        </h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Sector</th>
-                    <th class="num">Weight</th>
-                    <th class="num">P&amp;L</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><span class="only-serious">Northfield Industrial</span><span class="only-funny">Chicken on Tree Inc.</span></td>
-                    <td><span class="only-serious">Industrials</span><span class="only-funny">Poultry</span></td>
-                    <td class="num"><span class="only-serious">6.4%</span><span class="only-funny">100%</span></td>
-                    <td class="num"><span class="only-serious">+18bps</span><span class="only-funny">😂😂</span></td>
-                </tr>
-                <tr>
-                    <td><span class="only-serious">Helios Payments</span><span class="only-funny">Beak &amp; Co.</span></td>
-                    <td><span class="only-serious">Financials</span><span class="only-funny">Screaming</span></td>
-                    <td class="num"><span class="only-serious">5.1%</span><span class="only-funny">buk</span></td>
-                    <td class="num"><span class="only-serious">+9bps</span><span class="only-funny">AAAA</span></td>
-                </tr>
-                <tr>
-                    <td><span class="only-serious">Vesper Health</span><span class="only-funny">The Tree Itself</span></td>
-                    <td><span class="only-serious">Health care</span><span class="only-funny">Forestry</span></td>
-                    <td class="num"><span class="only-serious">4.7%</span><span class="only-funny">yes</span></td>
-                    <td class="num"><span class="only-serious">−3bps</span><span class="only-funny">oh no</span></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <footer>
-        <p class="fine">
-            <span class="only-serious">This document is for professional investors only. It does not constitute an offer to sell securities. Model Aether-RA 4.2. Do not copy or distribute.</span>
-            <span class="only-funny">This document constitutes an offer to sell one (1) screaming chicken. Model Cluck-RA 9.9. Please distribute widely.</span>
-        </p>
-        <button id="run" type="button">
-            <span class="only-serious">Run Analysis</span>
-            <span class="only-funny">Run it back 😂</span>
-        </button>
-    </footer>
+    <h1>
+        <span class="serious">Data Visualization</span>
+        <span class="funny">It was a chicken</span>
+    </h1>
+    <p>
+        <span class="serious">Run the analysis to view the results.</span>
+        <span class="funny">Please do not tell the committee.</span>
+    </p>
+    <button id="run" type="button">
+        <span class="serious">Run Analysis</span>
+        <span class="funny">Run it back</span>
+    </button>
 </div>
 
-<img id="chicken" src="chicken-chaos.png" alt="">
 <div id="laugh" aria-hidden="true">😂</div>
+<img id="chicken" src="chicken-chaos.png" alt="">
 <audio id="clip" src="chicken-on-tree-screaming.mp3?v=2" preload="auto"></audio>
 
 <script>
@@ -559,70 +169,19 @@ const audioUrl = "chicken-on-tree-screaming.mp3?v=2";
 const audio = document.getElementById("clip");
 const laugh = document.getElementById("laugh");
 
-function popLaugh() {
+document.getElementById("run").addEventListener("click", async () => {
+    document.documentElement.classList.add("chaos");
+    document.title = "It was a chicken";
     laugh.classList.remove("pop");
     void laugh.offsetWidth;
     laugh.classList.add("pop");
-}
 
-function rainEmojis() {
-    const emojis = ["😂", "😂", "🤣", "🐔", "💀", "😭", "🔥", "🌳"];
-    for (let i = 0; i < 42; i++) {
-        const el = document.createElement("span");
-        el.className = "floater";
-        el.textContent = emojis[i % emojis.length];
-        el.style.left = Math.random() * 100 + "vw";
-        el.style.fontSize = 18 + Math.random() * 36 + "px";
-        el.style.animationDuration = 1.8 + Math.random() * 1.6 + "s";
-        el.style.animationDelay = Math.random() * 0.35 + "s";
-        document.body.appendChild(el);
-        setTimeout(() => el.remove(), 3600);
-    }
-}
-
-function goChaos() {
-    document.documentElement.classList.add("chaos");
-    document.title = "THE CHICKEN HAS THE DATA";
-    popLaugh();
-    rainEmojis();
-}
-
-async function playClip() {
-    audio.pause();
-    if (!audio.src || !audio.src.includes("chicken-on-tree-screaming.mp3")) {
-        audio.src = audioUrl;
-    }
-    try { audio.currentTime = 0; } catch (e) {}
     try {
+        audio.pause();
+        audio.currentTime = 0;
         await audio.play();
-        return;
     } catch (err) {
-        console.warn("Retrying audio load:", err);
-    }
-    audio.src = audioUrl;
-    audio.load();
-    await new Promise((resolve, reject) => {
-        const ok = () => { cleanup(); resolve(); };
-        const fail = () => { cleanup(); reject(new Error("audio error")); };
-        const cleanup = () => {
-            audio.removeEventListener("canplaythrough", ok);
-            audio.removeEventListener("canplay", ok);
-            audio.removeEventListener("error", fail);
-        };
-        audio.addEventListener("canplaythrough", ok, { once: true });
-        audio.addEventListener("canplay", ok, { once: true });
-        audio.addEventListener("error", fail, { once: true });
-    });
-    await audio.play();
-}
-
-document.getElementById("run").addEventListener("click", async () => {
-    goChaos();
-    try {
-        await playClip();
-    } catch (err) {
-        console.error("Could not play audio:", err);
-        new Audio(audioUrl).play().catch((e) => console.error("Fallback play failed:", e));
+        new Audio(audioUrl).play().catch(() => {});
     }
 });
 </script>
