@@ -27,6 +27,7 @@
         padding: 24px;
         position: relative;
         z-index: 2;
+        width: min(420px, 100%);
     }
 
     .stamp {
@@ -72,27 +73,31 @@
 
     .funny { display: none; }
 
+    #clipwrap {
+        display: none;
+        width: min(220px, 52vw);
+        height: min(390px, 48vh);
+        margin: 0 auto 16px;
+        background: #000;
+        overflow: hidden;
+    }
+
+    #clipwrap iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
     #laugh {
         position: fixed;
         left: 50%;
-        top: 14%;
+        top: 10%;
         transform: translate(-50%, -50%) scale(0);
-        font-size: 84px;
+        font-size: 72px;
         line-height: 1;
         pointer-events: none;
         opacity: 0;
         z-index: 5;
-    }
-
-    #meme {
-        position: fixed;
-        left: 50%;
-        bottom: 0;
-        width: min(340px, 70vw);
-        transform: translateX(-50%) translateY(20px);
-        pointer-events: none;
-        z-index: 1;
-        opacity: 0;
     }
 
     html.chaos body {
@@ -102,6 +107,7 @@
 
     html.chaos .serious { display: none; }
     html.chaos .funny { display: inline; }
+    html.chaos #clipwrap { display: block; }
 
     html.chaos .stamp {
         border-color: #d10b64;
@@ -109,6 +115,8 @@
     }
 
     html.chaos h1 { color: #d10b64; }
+
+    html.chaos p { margin-bottom: 14px; }
 
     html.chaos button {
         background: #d10b64;
@@ -118,12 +126,6 @@
         letter-spacing: 0;
         font-size: 16px;
         font-weight: 700;
-    }
-
-    html.chaos #meme {
-        opacity: 1;
-        transform: translateX(-50%) translateY(0);
-        transition: opacity 0.25s ease, transform 0.4s ease;
     }
 
     html.chaos #laugh.pop {
@@ -151,6 +153,13 @@
         <span class="serious">Run the analysis to view the results.</span>
         <span class="funny">That's the result.</span>
     </p>
+    <div id="clipwrap">
+        <iframe id="yt"
+            title="Indian guy laughing"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
     <button id="run" type="button">
         <span class="serious">Run Analysis</span>
         <span class="funny">Run it back</span>
@@ -158,21 +167,29 @@
 </div>
 
 <div id="laugh" aria-hidden="true">😂</div>
-<img id="meme" src="laugh-meme.png" alt="">
 <audio id="clip" src="chicken-on-tree-screaming.mp3?v=2" preload="auto"></audio>
 
 <script>
+const VIDEO_ID = "YyoC9YOP79U";
 const audioUrl = "chicken-on-tree-screaming.mp3?v=2";
 const audio = document.getElementById("clip");
 const laugh = document.getElementById("laugh");
+const yt = document.getElementById("yt");
+let started = false;
 
-document.getElementById("run").addEventListener("click", async () => {
-    document.documentElement.classList.add("chaos");
-    document.title = "HAHAHA";
+function popLaugh() {
     laugh.classList.remove("pop");
     void laugh.offsetWidth;
     laugh.classList.add("pop");
+}
 
+function playVideo() {
+    const src = "https://www.youtube.com/embed/" + VIDEO_ID +
+        "?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=" + VIDEO_ID;
+    yt.src = src;
+}
+
+async function playAudio() {
     try {
         audio.pause();
         audio.currentTime = 0;
@@ -180,6 +197,17 @@ document.getElementById("run").addEventListener("click", async () => {
     } catch (err) {
         new Audio(audioUrl).play().catch(() => {});
     }
+}
+
+document.getElementById("run").addEventListener("click", async () => {
+    document.documentElement.classList.add("chaos");
+    document.title = "HAHAHA";
+    popLaugh();
+    if (!started) {
+        started = true;
+        playVideo();
+    }
+    await playAudio();
 });
 </script>
 </body>
