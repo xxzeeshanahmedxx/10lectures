@@ -1,251 +1,218 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="theme-color" content="#f4f1ea">
+<meta name="robots" content="noindex">
 <title>Data Visualization</title>
-
-
-
+<link rel="preconnect" href="https://www.youtube.com">
+<link rel="preconnect" href="https://www.youtube-nocookie.com">
 <style>
+    * { box-sizing: border-box; }
+
+    html, body {
+        margin: 0;
+        height: 100%;
+    }
 
     body {
-
-        margin: 0;
-
         min-height: 100vh;
-
         display: flex;
-
         align-items: center;
-
         justify-content: center;
-
-        font-family: Arial, sans-serif;
-
-        background: #fff;
-
-        color: #222;
-
+        font-family: Georgia, "Times New Roman", serif;
+        background: #f4f1ea;
+        color: #1a1a1a;
     }
 
-
-
-    .container {
-
+    .page {
         text-align: center;
-
+        padding: 24px;
+        position: relative;
+        z-index: 2;
+        width: min(420px, 100%);
     }
 
-
+    .stamp {
+        display: inline-block;
+        border: 1px solid #7a1f2b;
+        color: #7a1f2b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        padding: 4px 8px;
+        margin-bottom: 18px;
+        font-weight: 700;
+    }
 
     h1 {
-
-        font-size: 20px;
-
+        font-size: 26px;
         font-weight: 500;
-
-        margin-bottom: 8px;
-
+        margin: 0 0 10px;
+        letter-spacing: -0.02em;
     }
-
-
 
     p {
-
-        font-size: 13px;
-
-        color: #777;
-
-        margin-bottom: 18px;
-
+        font-size: 14px;
+        color: #666;
+        margin: 0 0 22px;
     }
-
-
 
     button {
-
-        border: 1px solid #ccc;
-
-        background: #fafafa;
-
-        padding: 8px 16px;
-
-        border-radius: 6px;
-
+        appearance: none;
+        border: 1px solid #0c1c33;
+        background: #0c1c33;
+        color: #f4f1ea;
+        padding: 12px 22px;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 13px;
-
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
         cursor: pointer;
-
-        animation: pulse 1.4s infinite;
-
     }
 
+    button:hover { background: #162844; }
 
+    .funny { display: none; }
 
-    @keyframes pulse {
-
-        0%, 100% {
-
-            transform: scale(1);
-
-        }
-
-
-
-        50% {
-
-            transform: scale(1.05);
-
-        }
-
+    #clipwrap {
+        display: none;
+        width: min(220px, 52vw);
+        height: min(390px, 48vh);
+        margin: 0 auto 16px;
+        background: #000;
+        overflow: hidden;
     }
 
-
-
-    button:active {
-
-        transform: scale(0.97);
-
+    #clipwrap iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
     }
 
+    #laugh {
+        position: fixed;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%, -50%) scale(0);
+        font-size: 72px;
+        line-height: 1;
+        pointer-events: none;
+        opacity: 0;
+        z-index: 5;
+    }
+
+    html.chaos body {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        background: #ffe14a;
+    }
+
+    html.chaos .serious { display: none; }
+    html.chaos .funny { display: inline; }
+    html.chaos #clipwrap { display: block; }
+
+    html.chaos .stamp {
+        border-color: #d10b64;
+        color: #d10b64;
+    }
+
+    html.chaos h1 { color: #d10b64; }
+
+    html.chaos p { margin-bottom: 14px; }
+
+    html.chaos button {
+        background: #d10b64;
+        border-color: #000;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    html.chaos #laugh.pop {
+        animation: laughPop 0.55s cubic-bezier(0.2, 1.5, 0.35, 1) forwards;
+    }
+
+    @keyframes laughPop {
+        0% { opacity: 0; transform: translate(-50%, -50%) scale(0); }
+        70% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+        100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+    }
 </style>
-
 </head>
-
-
-
 <body>
-
-
-
-<div class="container">
-
-    <h1>Data Visualization</h1>
-
-    <p>Run the analysis to view the results.</p>
-
-    <button id="run">Run Analysis</button>
-
+<div class="page">
+    <div class="stamp">
+        <span class="serious">Confidential</span>
+        <span class="funny">Gotcha</span>
+    </div>
+    <h1>
+        <span class="serious">Data Visualization</span>
+        <span class="funny">HAHAHA</span>
+    </h1>
+    <p>
+        <span class="serious">Run the analysis to view the results.</span>
+        <span class="funny">That's the result.</span>
+    </p>
+    <div id="clipwrap">
+        <iframe id="yt"
+            title="Indian guy laughing"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <button id="run" type="button">
+        <span class="serious">Run Analysis</span>
+        <span class="funny">Run it back</span>
+    </button>
 </div>
 
-
+<div id="laugh" aria-hidden="true">😂</div>
+<audio id="clip" src="chicken-on-tree-screaming.mp3?v=2" preload="auto"></audio>
 
 <script>
+const VIDEO_ID = "YyoC9YOP79U";
+const audioUrl = "chicken-on-tree-screaming.mp3?v=2";
+const audio = document.getElementById("clip");
+const laugh = document.getElementById("laugh");
+const yt = document.getElementById("yt");
+let started = false;
 
-const audioURL =
-
-    "https://pub-6e5a7e576cf34fc7b127fde688b4053d.r2.dev/chicken-on-tree-screaming.mp3";
-
-
-
-let audioBuffer = null;
-
-let audioContext = null;
-
-let loading = false;
-
-
-
-async function preloadAudio() {
-
-    if (audioBuffer || loading) return;
-
-
-
-    loading = true;
-
-
-
-    try {
-
-        const response = await fetch(audioURL);
-
-        const data = await response.arrayBuffer();
-
-
-
-        audioContext = new (window.AudioContext || window.webkitAudioContext)();
-
-
-
-        audioBuffer = await audioContext.decodeAudioData(data);
-
-    } catch (error) {
-
-        console.error("Could not preload audio:", error);
-
-    }
-
+function popLaugh() {
+    laugh.classList.remove("pop");
+    void laugh.offsetWidth;
+    laugh.classList.add("pop");
 }
 
+function playVideo() {
+    const src = "https://www.youtube.com/embed/" + VIDEO_ID +
+        "?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=" + VIDEO_ID;
+    yt.src = src;
+}
 
-
-preloadAudio();
-
-
+async function playAudio() {
+    try {
+        audio.pause();
+        audio.currentTime = 0;
+        await audio.play();
+    } catch (err) {
+        new Audio(audioUrl).play().catch(() => {});
+    }
+}
 
 document.getElementById("run").addEventListener("click", async () => {
-
-
-
-    if (!audioBuffer) {
-
-        await preloadAudio();
-
+    document.documentElement.classList.add("chaos");
+    document.title = "HAHAHA";
+    popLaugh();
+    if (!started) {
+        started = true;
+        playVideo();
     }
-
-
-
-    if (!audioBuffer || !audioContext) return;
-
-
-
-    if (audioContext.state === "suspended") {
-
-        await audioContext.resume();
-
-    }
-
-
-
-    // Five plays, exactly 200 ms apart.
-
-    const startTime = audioContext.currentTime + 0.05;
-
-    const interval = 0.2;
-
-
-
-    for (let i = 0; i < 5; i++) {
-
-
-
-        const source = audioContext.createBufferSource();
-
-
-
-        source.buffer = audioBuffer;
-
-        source.connect(audioContext.destination);
-
-
-
-        source.start(startTime + (i * interval));
-
-    }
-
+    await playAudio();
 });
-
 </script>
-
-
-
 </body>
-
 </html>
